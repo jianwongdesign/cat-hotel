@@ -33,3 +33,5 @@ Moon bazaar: declined on both; keep committed colour coverage without fantasy cl
 Multiplane animation: declined on both; keep foreground text legibility independent of moving imagery.
 Loteria: declined on both; keep whole-room photo readability and direct room labels.
 Swiss grid: competitive on clarity but weaker on warmth; keep aligned room comparisons and exact spacing, avoid its cold poster styling.
+
+POLISH — 28 October 2026: user approved this layout and requested only a rounder, cosier finish. Ivory inset surfaces, softer control/media corners, and a centre-pad cursor hotspot preserve the composition. Booking changes update controls in place to keep the next click reliable.

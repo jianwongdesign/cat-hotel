@@ -3,7 +3,7 @@ name: Little Pawcious
 description: A contemporary cat-hotel showroom with warm colour, substantial photography and clear reservation controls.
 colors:
   cream: "#fffaf4"
-  paper: "#fff"
+  paper: "#fffdf9"
   ink: "#3b262b"
   muted: "#756368"
   rust: "#9e403b"
@@ -54,14 +54,14 @@ typography:
     fontWeight: 500
     lineHeight: 1.65
 rounded:
-  field: "5px"
-  filter-option: "6px"
-  button: "8px"
-  room-option: "9px"
-  mobile-desk: "10px"
-  photo: "12px"
-  dialog: "14px"
-  hero: "18px"
+  field: "10px"
+  filter-option: "10px"
+  button: "14px"
+  room-option: "14px"
+  mobile-desk: "16px"
+  photo: "20px"
+  dialog: "24px"
+  hero: "28px"
 spacing:
   section: "76px"
   section-tablet: "60px"
@@ -127,7 +127,7 @@ The frontmatter preserves the exact CSS values. Core names map directly to custo
 
 - **Rust / deep rust:** primary actions, rates, selected inputs and interaction feedback. The deeper tone is the primary-button hover state.
 - **Espresso-plum:** the preview strip, care chapter, mobile hero background and text selection. Peach supplies the care heading and icon contrast.
-- **Warm white / paper:** page canvas and inset white controls. `cream` is the source token name for the current warm white, not the former cream value.
+- **Warm white / paper:** page canvas and inset ivory controls. `cream` is the source token name for the current warm white, not the former cream value.
 - **Ink / muted:** body text and supporting copy. Line and blush remain source primitives; blush is retained in the stylesheet but is not a major painted surface.
 - **Clay surfaces:** room catalogue, filter tray, FAQ and booking summary each use their extracted tone.
 - **Error / success:** the booking error text and completed-preview icon use these local status colours. Completion means only that the design journey is complete.
@@ -173,7 +173,7 @@ Coloured chapters and photographic crops provide most depth. The white reservati
 
 ## Shapes
 
-Rounded rectangles repeat across controls and media: buttons 8px, photographs and desktop reservation desk 12px, desktop hero 18px and dialogs 14px. Form fields use 5px corners; booking room choices use 9px. At ≤600px the hero becomes 12px and desk/dialog 10px. Gallery controls, close buttons and booking progress markers are circular. Keep the original paw brand icon and native paw cursor; the current direction does not call for decorative sticker badges.
+Rounded rectangles repeat across controls and media: buttons 14px, photographs and desktop reservation desk 20px, desktop hero 28px and dialogs 24px. Form fields use 10px corners; booking room choices use 14px. At ≤600px the hero becomes 20px and desk/dialog 16px. Gallery controls, close buttons and booking progress markers are circular. Keep the original paw brand icon and native paw cursor; the current direction does not call for decorative sticker badges.
 
 ## Components
 
@@ -181,17 +181,17 @@ Rounded rectangles repeat across controls and media: buttons 8px, photographs an
 
 **Navigation and footer.** The sticky warm-white header has a fine bottom rule, paw lockup, centred links and a booking action. The mobile menu button exposes its expanded state and switches its accessible label. Footer content groups the lockup, hotel line and social/contact links above a divider, licence, privacy link and preview label; mobile stacks the links and wraps the bottom row.
 
-**Room catalogue and filters.** Three columns pair portrait interiors with title, daily starting rate, guest capacity, features, photo/details actions and room-specific booking. Rounded filter buttons sit inside a clay tray; the active filter is white with rust text and `aria-pressed=true`. Room image hover darkens the image to brightness(.94) over .2s, with no lift. Gallery controls expose multiple real photographs; the active number uses rust/white. Room facts and provenance remain in the product/source records.
+**Room catalogue and filters.** Three columns pair portrait interiors with title, daily starting rate, guest capacity, features, photo/details actions and room-specific booking. Rounded filter buttons sit inside a clay tray; the active filter is white with rust text and `aria-pressed=true`. Room image hover darkens the image to brightness(.94) over .2s, with no lift. Gallery and close controls have 44px hit areas. Gallery controls expose multiple real photographs; the active number uses rust/white. Room facts and provenance remain in the product/source records.
 
 **Reservation desk.** Date and guest controls sit directly beneath the film in a white overlapping surface. Desktop fields use thin vertical dividers; mobile uses two columns, lower input rules and a visible action. The earlier “Going somewhere?” eyebrow is absent. The desk opens the working preview with selected dates and guest count.
 
 **Inputs and room choices.** Dialog fields use white fill, line borders, 11px padding and a 43px minimum height. Selected room choices receive the rust border and ring. Capacity-ineligible choices are disabled and faded to .45; the UI explicitly distinguishes guest capacity from live availability. Payment choices are preview radios only. Validation errors appear in a `role=alert` region; no live card-entry or banking form exists.
 
-**Booking dialog.** Dates/room, guest details, review/payment and completion are distinct states. The current step has a rust marker and `aria-current=step`; completed markers contain an inline SVG check. Back uses the shared SVG arrow rotated 180 degrees. Continue, Back and Edit details reset dialog scroll and focus the new heading with `preventScroll`; date/room re-renders restore the changed field's focus. Preview notices, estimates, consent and completion wording consistently state that nothing is booked or charged.
+**Booking dialog.** Dates/room, guest details, review/payment and completion are distinct states. The current step has a rust marker and `aria-current=step`; completed markers contain an inline SVG check. Back uses the shared SVG arrow rotated 180 degrees. Continue, Back and Edit details reset dialog scroll and focus the new heading with `preventScroll`; date, guest-count and room changes update the existing form controls and estimate in place. Keeping controls mounted prevents a date blur from swallowing a pending click. Preview notices, estimates, consent and completion wording consistently state that nothing is booked or charged.
 
 **FAQ.** Native details/summary rows use dividing lines and a plus icon that rotates 45 degrees when open. Keep keyboard focus visible and the native disclosure semantics.
 
-**Desktop paw cursor.** Only `(hover: hover) and (pointer: fine)` receives `public/cursors/paw.svg`, hotspot 8 5, with `auto` fallback. Links, buttons, summaries, selects and radio/checkbox labels use `paw-active.svg`, the same hotspot and `pointer` fallback. Editable non-radio/non-checkbox inputs and textareas retain a text cursor; disabled buttons, inputs and selects use `not-allowed`. Coarse/touch devices receive the normal platform behaviour. This is CSS, with no cursor follower or trailing animation.
+**Desktop paw cursor.** Only `(hover: hover) and (pointer: fine)` receives `public/cursors/paw.svg`, hotspot 16 21 at the centre-pad aim dot, with `auto` fallback. Links, buttons, summaries, selects and radio/checkbox labels use `paw-active.svg`, the same hotspot and `pointer` fallback. Editable non-radio/non-checkbox inputs and textareas retain a text cursor; disabled buttons, inputs, selects and their choice labels use `not-allowed`. Coarse/touch devices receive the normal platform behaviour. This is CSS, with no cursor follower or trailing animation.
 
 **Atmosphere film and motion.** The existing 7.5-second AI-created silent loop remains visibly disclosed. A poster and Play/Pause/Retry control are present. At first source assignment, ≤600px selects the 960×540 encode; larger screens select 1920×1080. The source is assigned only when playback is requested and the film is visible. Playback pauses offscreen, in a hidden document or while a dialog is open. Reduced-motion/data-saving preferences start with the poster; explicit Play is available. Preference changes toward reduced motion or data saving stop requested playback. Reduced motion also disables CSS transitions/animations and switches smooth scrolling to auto. Film source, mobile encode and offscreen pause have prior handoff evidence; reduced-motion/data-saving runtime emulation remains unverified, with behaviour reviewed from source only. See `docs/REDESIGN-HANDOFF.md` and `docs/MEDIA.md` for verification limits and provenance.
 

@@ -38,3 +38,15 @@ Independent finish verdict: `ship` for all three scored fixes; corrected 320px e
 - Public desktop checked: new Gabarito headline, film playing with readyState 4 / 7.5-second duration, both paw cursor URLs applied and HTTP 200, no horizontal overflow or console errors.
 - Public mobile checked at 390px: mobile navigation present, small video encode selected, no horizontal overflow. Desktop viewport restored afterwards.
 - Published screenshots saved locally under `.cache/qa/published-redesign-desktop.jpg` and `published-redesign-mobile.jpg`.
+
+## Minor cosy polish and click repair — 28 October 2026
+
+The user approved the current design and asked for softer corners plus a fix for unreliable paw-cursor clicks. This pass preserves layout, typography, copy and media.
+
+- Both native paw cursors now use the same centre-pad hotspot (16,21), marked by a small ivory aim dot; previously the hotspot was offset at (8,5). Disabled room labels show the disabled cursor.
+- Booking date, guest-count and room changes update controls and the estimate in place. Previously replacing the whole form on a date change could remove the intended click target during blur. Invalid dates hide the estimate until corrected; capacity and auto-adjusted checkout still update.
+- Ivory paper surfaces and consistent softer corners: buttons 14px, fields 10px, room photos/desktop desk 20px, desktop hero 28px, desktop dialog 24px; mobile hero 20px and desk/dialog 16px. Gallery/close controls have 44px hit areas.
+- Local Chrome QA: 1440px desktop; 390px mobile menu, room gallery and room-to-booking path; 320px narrow layout; 768px tablet. No horizontal overflow at these widths. Browser console clear.
+- Booking QA: changed dates then clicked Continue once; blank-date validation and recovery; check-in beyond checkout auto-adjustment; five-cat selection disables smaller rooms; switch back to two cats restores choices; Panthera 3-day S$240 estimate and PayNow preview completion. Keyboard Escape closes room dialog.
+- Four existing automated booking tests and static build pass. Single design scan: new intentional radii documented; unchanged type-size advisories and the explicitly approved warm-cream palette retained. No additional video generation or credits.
+- Screenshots: `.cache/qa/cosy-desktop.jpg`, `cosy-mobile.jpg`, `cosy-narrow.jpg`, `cosy-mobile-room.jpg` (local, ignored).

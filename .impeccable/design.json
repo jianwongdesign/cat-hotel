@@ -356,7 +356,7 @@
       "refersTo": "button-primary",
       "description": "Rust reservation action; background feedback without movement.",
       "html": "<button class=\"ds-button\">Book a stay <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
-      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:22px;border:0;border-radius:8px;background:var(--rust,#9e403b);color:#fff;padding:16px 22px;min-height:48px;font:600 14px/1.35 \"Albert Sans\",sans-serif;white-space:nowrap;cursor:pointer;transition:background .18s}.ds-button:hover{background:var(--rust-dark,#7d2b2a)}.ds-button:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}"
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:22px;border:0;border-radius:14px;background:var(--rust,#9e403b);color:#fff;padding:16px 22px;min-height:48px;font:600 14px/1.35 \"Albert Sans\",sans-serif;white-space:nowrap;cursor:pointer;transition:background .18s}.ds-button:hover{background:var(--rust-dark,#7d2b2a)}.ds-button:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}"
     },
     {
       "name": "Light Contact Button",
@@ -364,7 +364,7 @@
       "refersTo": "button-light",
       "description": "Warm-white action on the rust contact chapter.",
       "html": "<div class=\"ds-contact\"><button class=\"ds-button ds-light\">Arrange a viewing <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button></div>",
-      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:22px;border:0;border-radius:8px;background:var(--rust,#9e403b);color:#fff;padding:16px 22px;min-height:48px;font:600 14px/1.35 \"Albert Sans\",sans-serif;white-space:nowrap;cursor:pointer;transition:background .18s}.ds-button:hover{background:var(--rust-dark,#7d2b2a)}.ds-button:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}.ds-contact{background:var(--rust,#9e403b);padding:24px}.ds-light{background:var(--cream,#fffaf4);color:var(--rust,#9e403b);font-size:13px}.ds-light:hover{background:var(--peach,#f6c6a8);color:var(--plum,#492932)}.ds-light:focus-visible{outline-color:var(--cream,#fffaf4)}"
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:22px;border:0;border-radius:14px;background:var(--rust,#9e403b);color:#fff;padding:16px 22px;min-height:48px;font:600 14px/1.35 \"Albert Sans\",sans-serif;white-space:nowrap;cursor:pointer;transition:background .18s}.ds-button:hover{background:var(--rust-dark,#7d2b2a)}.ds-button:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}.ds-contact{background:var(--rust,#9e403b);padding:24px}.ds-light{background:var(--cream,#fffaf4);color:var(--rust,#9e403b);font-size:13px}.ds-light:hover{background:var(--peach,#f6c6a8);color:var(--plum,#492932)}.ds-light:focus-visible{outline-color:var(--cream,#fffaf4)}"
     },
     {
       "name": "Text Action",
@@ -379,7 +379,7 @@
       "refersTo": "form-field",
       "description": "White dialog field; mobile text size rises to 16px.",
       "html": "<label class=\"ds-label\">Your name<input class=\"ds-field\" placeholder=\"e.g. Alex Tan\" autocomplete=\"off\"></label>",
-      "css": ".ds-label{display:block;color:var(--ink,#3b262b);font:500 12px/1.65 \"Albert Sans\",sans-serif}.ds-field{display:block;width:100%;min-width:0;min-height:43px;padding:11px;margin-top:8px;border:1px solid var(--line,#e4d8d2);border-radius:5px;background:var(--paper,#fff);color:var(--ink,#3b262b);font:400 14px/1.65 \"Albert Sans\",sans-serif;caret-color:var(--rust,#9e403b);cursor:text}.ds-field:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}@media(max-width:600px){.ds-field{font-size:16px}}"
+      "css": ".ds-label{display:block;color:var(--ink,#3b262b);font:500 12px/1.65 \"Albert Sans\",sans-serif}.ds-field{display:block;width:100%;min-width:0;min-height:43px;padding:11px;margin-top:8px;border:1px solid var(--line,#e4d8d2);border-radius:10px;background:var(--paper,#fffdf9);color:var(--ink,#3b262b);font:400 14px/1.65 \"Albert Sans\",sans-serif;caret-color:var(--rust,#9e403b);cursor:text}.ds-field:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}@media(max-width:600px){.ds-field{font-size:16px}}"
     },
     {
       "name": "Desktop Navigation",
@@ -394,7 +394,7 @@
       "refersTo": "room-filter-active",
       "description": "Rounded filter tray with white active segment; initial visual state.",
       "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"Filter rooms\"><button class=\"ds-active\" aria-pressed=\"true\">All rooms</button><button aria-pressed=\"false\">Solo stays</button><button aria-pressed=\"false\">Family stays</button></div>",
-      "css": ".ds-filters{display:inline-flex;gap:6px;padding:5px;border-radius:9px;background:#e5d5c9}.ds-filters button{border:0;background:none;min-height:38px;padding:9px 15px;font:600 12px/1.65 \"Albert Sans\",sans-serif;border-radius:6px;color:var(--ink,#3b262b);cursor:pointer}.ds-filters .ds-active{background:var(--paper,#fff);color:var(--rust,#9e403b)}.ds-filters button:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}"
+      "css": ".ds-filters{display:inline-flex;gap:6px;padding:5px;border-radius:14px;background:#e5d5c9}.ds-filters button{border:0;background:none;min-height:38px;padding:9px 15px;font:600 12px/1.65 \"Albert Sans\",sans-serif;border-radius:10px;color:var(--ink,#3b262b);cursor:pointer}.ds-filters .ds-active{background:var(--paper,#fffdf9);color:var(--rust,#9e403b)}.ds-filters button:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}"
     },
     {
       "name": "Room Selection Option",
@@ -402,7 +402,7 @@
       "refersTo": "room-option",
       "description": "Selected booking room with a border and ring; photo omitted from this primitive preview.",
       "html": "<label class=\"ds-option\"><input type=\"radio\" name=\"ds-room\" checked><span><strong>Felis Cabins</strong><small>1 medium / large cat or 2 small cats</small></span><b>S$45<small>/ day</small></b></label>",
-      "css": ".ds-option{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid var(--line,#e4d8d2);border-radius:9px;background:var(--paper,#fff);color:var(--ink,#3b262b);font:500 12px/1.65 \"Albert Sans\",sans-serif;cursor:pointer}.ds-option:has(input:checked){border-color:var(--rust,#9e403b);box-shadow:0 0 0 1px var(--rust,#9e403b)}.ds-option input{accent-color:var(--rust,#9e403b);width:16px;height:16px;flex:none}.ds-option strong{display:block;font-size:12px;font-weight:500}.ds-option small{display:block;font-size:9px;color:var(--muted,#756368);font-weight:400;margin-top:3px}.ds-option b{margin-left:auto;font-size:16px;font-weight:500;white-space:nowrap;font-variant-numeric:tabular-nums}.ds-option input:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}"
+      "css": ".ds-option{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid var(--line,#e4d8d2);border-radius:14px;background:var(--paper,#fffdf9);color:var(--ink,#3b262b);font:500 12px/1.65 \"Albert Sans\",sans-serif;cursor:pointer}.ds-option:has(input:checked){border-color:var(--rust,#9e403b);box-shadow:0 0 0 1px var(--rust,#9e403b)}.ds-option input{accent-color:var(--rust,#9e403b);width:16px;height:16px;flex:none}.ds-option strong{display:block;font-size:12px;font-weight:500}.ds-option small{display:block;font-size:9px;color:var(--muted,#756368);font-weight:400;margin-top:3px}.ds-option b{margin-left:auto;font-size:16px;font-weight:500;white-space:nowrap;font-variant-numeric:tabular-nums}.ds-option input:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}"
     }
   ],
   "narrative": {
