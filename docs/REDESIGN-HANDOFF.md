@@ -29,3 +29,12 @@ Direction contract: `.impeccable/surfaces/index-html.md`. Product truth: PRODUCT
 Final review fix batch: removed the small reservation eyebrow, replaced booking Back/progress glyphs with the shared SVG icons, and restored heading focus plus scroll-to-top on Back/Edit details. Mobile browser verification confirms both return focus to `booking-title`, reset dialog scroll to 0 and preserve guest data. All four automated tests still pass; browser console is clear.
 
 Independent finish verdict: `ship` for all three scored fixes; corrected 320px evidence accepted. Report: `.impeccable/review-redesign/finish-review.md`.
+
+## Published release
+
+- Design commit: `c70add44440424ff2297ae15a29333dae3877934`.
+- Successful build/test/deployment: https://github.com/jianwongdesign/cat-hotel/actions/runs/40645001340.
+- Public preview: https://jianwongdesign.github.io/cat-hotel/.
+- Public desktop checked: new Gabarito headline, film playing with readyState 4 / 7.5-second duration, both paw cursor URLs applied and HTTP 200, no horizontal overflow or console errors.
+- Public mobile checked at 390px: mobile navigation present, small video encode selected, no horizontal overflow. Desktop viewport restored afterwards.
+- Published screenshots saved locally under `.cache/qa/published-redesign-desktop.jpg` and `published-redesign-mobile.jpg`.
