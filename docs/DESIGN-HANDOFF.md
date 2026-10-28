@@ -80,3 +80,11 @@ The client's existing website has not been modified.
 
 - Independent finish review: `ship` for the sole material fix, the contact-section focus outline. Cream outlines verified for both phone and viewing CTA; all five required recaptures accepted. Review at `.impeccable/review/finish-review.md`.
 - Large desktop also measured at 2320 px without overflow. Final browser console had no errors or warnings. Actual film loop/mute state and 7.5-second duration confirmed in browser.
+
+## Published boutique preview
+
+- Design/video commit: `0855f7e501930118da0705cdba85e038afa3d681`.
+- Deployment passed: https://github.com/jianwongdesign/cat-hotel/actions/runs/40642327313 (build including tests and Pages deploy succeeded).
+- Public page verified in Chrome at https://jianwongdesign.github.io/cat-hotel/: revised Newsreader design, labelled film playing from the repository MP4, readyState 4, duration 7.5 seconds, no horizontal overflow and no console errors.
+- Published screenshot: `.cache/qa/published-boutique-preview.jpg` (local evidence, ignored by Git).
+- Original OFL licence files are retained as downloaded, including upstream line endings/trailing spaces.
