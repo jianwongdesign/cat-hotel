@@ -19,6 +19,8 @@ colors:
   error: "#a32b1b"
   success-bg: "#e2e7d5"
   success-ink: "#596944"
+  selected-fill: "#fcf4ed"
+  photo-overlay: "#24171b"
 typography:
   display:
     fontFamily: "Gabarito, sans-serif"
@@ -162,10 +164,10 @@ The hero stage shares the standard `.container` width with the header, booking d
 
 ## Elevation & Depth
 
-Coloured chapters and photographic crops provide most depth. The white reservation desk has a restrained structural shadow; dialogs use stronger elevation and a dark blurred backdrop. Room catalogue bodies stay open against the clay chapter rather than becoming separate raised cards.
+Coloured chapters and photographic crops provide most depth. The white reservation desk has a restrained structural shadow; dialogs use stronger elevation and a dark translucent backdrop without blur. Room catalogue bodies stay open against the clay chapter rather than becoming separate raised cards.
 
 - Reservation desk: `0 12px 40px #48283213`; mobile: `0 8px 26px #48283213`.
-- Dialog: `0 30px 100px #251c2340`; backdrop `#2c211db0` with `blur(5px)`.
+- Dialog: `0 30px 100px #251c2340`; backdrop `#2c211db0`, with no backdrop blur.
 - Selected booking room: `0 0 0 1px var(--rust)` alongside the rust border.
 - Desktop hero text shading uses a horizontal dark-to-transparent gradient; mobile uses a plum-to-transparent vertical gradient, keeping the heading above the lower film crop.
 
@@ -177,17 +179,17 @@ Rounded rectangles repeat across controls and media: buttons 14px, photographs a
 
 ## Components
 
-**Buttons and text actions.** Primary buttons use rust with white text, 16px 22px padding, minimum height 48px and a 22px icon gap. Hover changes to deep rust over .18s. Light buttons invert to warm white/rust and hover to peach/plum. Text actions use a fine underline, 7px vertical padding and minimum height 36px; room-card and booking back actions remove the underline. Smaller variants are defined per context rather than through a new universal scale. Focus is 3px with 5px offset. There is no separate authored pressed transform.
+**Buttons and text actions.** Primary buttons use rust with white text, 16px 22px padding, minimum height 48px and a 22px icon gap. Hover changes to deep rust over 160ms. Light buttons invert to warm white/rust and hover to peach/plum. Text actions use a fine underline, 7px vertical padding and minimum height 36px; room-card and booking back actions remove the underline. Smaller variants are defined per context rather than through a new universal scale. Focus is 3px with 5px offset. There is no separate authored pressed transform.
 
 **Navigation and footer.** The sticky warm-white header has a fine bottom rule, paw lockup, centred links and a booking action. The mobile menu button exposes its expanded state and switches its accessible label. Footer content groups the lockup, hotel line and social/contact links above a divider, licence, privacy link and preview label; mobile stacks the links and wraps the bottom row.
 
-**Room catalogue and filters.** Three columns pair portrait interiors with title, daily starting rate, guest capacity, features, photo/details actions and room-specific booking. Rounded filter buttons sit inside a clay tray; the active filter is white with rust text and `aria-pressed=true`. Room image hover darkens the image to brightness(.94) over .2s, with no lift. Gallery and close controls have 44px hit areas. Gallery controls expose multiple real photographs; the active number uses rust/white. Room facts and provenance remain in the product/source records.
+**Room catalogue and filters.** Three columns pair portrait interiors with title, daily starting rate, guest capacity, features, photo/details actions and room-specific booking. Rounded filter buttons sit inside a clay tray; the active filter is white with rust text and `aria-pressed=true`. Room image hover fades a small dark overlay to .06 opacity over 240ms, avoiding a filter repaint and hover lift. Gallery and close controls have 44px hit areas. Gallery controls expose multiple real photographs; the active number uses rust/white. Room facts and provenance remain in the product/source records.
 
 **Reservation desk.** Date and guest controls sit directly beneath the film in a white overlapping surface. Desktop fields use thin vertical dividers; mobile uses two columns, lower input rules and a visible action. The earlier “Going somewhere?” eyebrow is absent. The desk opens the working preview with selected dates and guest count.
 
 **Inputs and room choices.** Dialog fields use white fill, line borders, 11px padding and a 43px minimum height. Selected room choices receive the rust border and ring. Capacity-ineligible choices are disabled and faded to .45; the UI explicitly distinguishes guest capacity from live availability. Payment choices are preview radios only. Validation errors appear in a `role=alert` region; no live card-entry or banking form exists.
 
-**Booking dialog.** Dates/room, guest details, review/payment and completion are distinct states. The current step has a rust marker and `aria-current=step`; completed markers contain an inline SVG check. Back uses the shared SVG arrow rotated 180 degrees. Continue, Back and Edit details reset dialog scroll and focus the new heading with `preventScroll`; date, guest-count and room changes update the existing form controls and estimate in place. Keeping controls mounted prevents a date blur from swallowing a pending click. Preview notices, estimates, consent and completion wording consistently state that nothing is booked or charged.
+**Booking dialog.** A connected three-stage status indicator shows 01–03 with explicit In progress, Upcoming and Completed labels. The current marker is rust and exposes `aria-current=step`; completed markers use SVG ticks with filled connectors. Completion keeps all three stages visible as completed, with preview-only confirmation text. Back/Edit update status and preserve guest details. Dialog height stays consistent between steps (`min(900px,90dvh)`, 94dvh mobile) to avoid vertical jumps; content scrolls when needed. Date/room edits update existing controls in place, preserving click targets. Dialog date fields stack at ≤480px.
 
 **FAQ.** Native details/summary rows use dividing lines and a plus icon that rotates 45 degrees when open. Keep keyboard focus visible and the native disclosure semantics.
 
@@ -214,3 +216,7 @@ Rounded rectangles repeat across controls and media: buttons 14px, photographs a
 - **Don't** describe source-reviewed preference behaviour as runtime verified.
 
 Booking readability: quick-book heading 26px; dialog labels, room names, summary rows and primary buttons 14px; inputs 16px; supporting notices 12px; room capacity 11px. Mobile progress labels are 11px (10px at ≤359px), dialog actions 13px. Booking date fields stack at ≤480px to avoid clipping native date controls.
+
+## Motion refinements
+
+The cat film remains the only ambient motion. Controls use 160ms colour feedback; menu/dialog transitions use 160–240ms opacity and short transforms with `cubic-bezier(.16,1,.3,1)`. Booking content cross-fades over 180ms. Native smooth anchor scrolling remains; a stable scrollbar gutter prevents sideways movement when opening dialogs. No scroll-triggered reveals, parallax, cursor followers or extra animation dependencies. Reduced-motion rules suppress transitions and spatial effects. Browser preference emulation remains unverified; this path is source-reviewed.

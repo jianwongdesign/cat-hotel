@@ -293,14 +293,14 @@
     ],
     "motion": [
       {
-        "name": "button-background",
-        "value": "background .18s",
-        "purpose": "Primary action hover; CSS default ease."
+        "name": "control-feedback",
+        "value": "160ms ease",
+        "purpose": "Background, text and border colour feedback on interactive controls."
       },
       {
-        "name": "room-photo",
-        "value": "filter .2s",
-        "purpose": "Hover brightness(.94); no lift."
+        "name": "room-photo-overlay",
+        "value": "opacity 240ms ease",
+        "purpose": "Subtle dark overlay, no image filter repaint or lift."
       },
       {
         "name": "scroll",
@@ -316,6 +316,16 @@
         "name": "hotel-film",
         "value": "7.5s loop",
         "purpose": "Visible/requested playback only; poster, Play/Pause/Retry and dialog/visibility/preference gates. Reduced-motion/data-saving runtime emulation remains unverified."
+      },
+      {
+        "name": "dialog-and-menu",
+        "value": "160–240ms; cubic-bezier(.16,1,.3,1)",
+        "purpose": "Short interruptible opacity and position changes; no backdrop blur."
+      },
+      {
+        "name": "booking-state",
+        "value": "opacity 180ms ease-out",
+        "purpose": "Continuity between booking stages inside a stable-height dialog."
       }
     ],
     "breakpoints": [

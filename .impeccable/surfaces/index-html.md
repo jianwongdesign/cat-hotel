@@ -41,3 +41,5 @@ BRAND CORRECTION: use the original grey-and-pink paw artwork from littlepawcious
 HERO ALIGNMENT: hero stage and reservation desk use the same responsive container as the header and page content, including mobile. No independent wider hero gutter.
 
 CURSOR / BOOKING REFINEMENT: standalone pink paw-pad cursor; original grey-and-pink artwork retained in the logo. Increase booking labels, date values, actions and right-side summary text for readability; stack dialog date fields on narrow phones.
+
+BOOKING STATUS / MOTION: connected 01–03 stages with explicit current/upcoming/completed states, ticks and completed connectors, including preview completion. Fixed booking-dialog height preserves position between steps. Fast, interruptible fades clarify menu/dialog/content changes; controls share colour easing. Remove large backdrop blur and photo filter; keep native scrolling, stable gutter and existing film as the only ambient motion.
