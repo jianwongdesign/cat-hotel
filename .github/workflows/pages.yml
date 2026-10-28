@@ -3,6 +3,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # UTC: removes the public preview assets after the one-week review window.
+    - cron: "46 8 4 11 *"
 permissions:
   contents: read
   pages: write

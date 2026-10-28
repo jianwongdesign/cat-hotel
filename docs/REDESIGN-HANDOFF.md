@@ -86,3 +86,7 @@ QA: desktop 1440px forward/back status, guest form, review (two completed), and 
 User reported excessive maroon space in the mobile hero. At ≤600px the film now fills the hero from top to bottom, replacing its former 180px inset and solid plum upper block. A translucent warm-charcoal shade preserves white-text legibility while showing the hotel behind it. Hero height reduced from 465px to 440px. Existing aligned widths, typography, film controls, booking desk, desktop layout and media files preserved.
 
 Local checks: 320px and 390px layouts fit without horizontal overflow; hero and booking edges match; Pause/Play and Find a room work. Build and diff checks passed. No additional generation/credits.
+
+## Smaller paw and one-week review access — 28 October 2026
+
+Pink cursor reduced to 24px with hotspot 12,16; original logo unchanged. Added casual-copy restrictions and a visible access countdown. Preview expires 4 November 2026 at 4:45 pm SGT; scheduled Pages rebuild removes the website assets from its deployed artifact after expiry. Source remains public, so this is not absolute copy protection. Details and renewal instructions: PREVIEW-ACCESS.md. Browser checks confirmed right-click/copy notices and functioning booking inputs; six tests pass, including expired-asset omission.

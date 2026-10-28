@@ -12,7 +12,7 @@ let stay={start:addDays(localDate(),1),end:addDays(localDate(),4),cats:1};
 let selected=rooms[0], step=0, details={name:'',email:'',phone:'',catName:'',notes:''}, payment='card', accepted=false;
 const brand=`<span class="brand-icon"><img class="icon" src="./public/cursors/original-paw.png" alt="" width="35" height="35"></span><span>little pawcious<small>CAT HOTEL · SINGAPORE</small></span>`;
 document.querySelector('#app').innerHTML=`
-<div class="preview-bar">Design preview — bookings and payments are not live</div>
+<div class="preview-bar">Design preview — bookings and payments are not live<span class="preview-access" data-preview-countdown></span></div>
 <header class="header"><div class="container nav"><a href="#" class="brand" aria-label="Little Pawcious home">${brand}</a><nav id="navigation" aria-label="Main navigation"><a href="#rooms">Our rooms</a><a href="#care">The Pawcious life</a><a href="#before">Your first stay</a><a href="#contact">Find us</a></nav><button class="button nav-book" data-book>Book a stay ${icon('arrow')}</button><button class="menu-button" aria-label="Open navigation" aria-expanded="false" aria-controls="navigation">${icon('menu')}</button></div></header>
 <main id="main">
 <section class="hero" aria-labelledby="hero-title">

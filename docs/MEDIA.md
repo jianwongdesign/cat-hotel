@@ -40,3 +40,5 @@ Source as rendered in the original site header on 28 October 2026: https://i0.wp
 - Original source page currently uses this as its header artwork, rather than a CSS cursor; the new preview adapts that same artwork for the requested cursor.
 
 Latest cursor refinement: user requested just the pink paw. `pink-paw.svg` is a small authored paw-pad interface icon in soft pink, without the grey leg, used only for fine-pointer cursors. The original PNG remains the header/footer logo artwork and favicon. No AI generation or new credits.
+
+The pink cursor is now displayed at 24×24 with hotspot 12,16; its 32-unit viewBox preserves the same paw geometry.
