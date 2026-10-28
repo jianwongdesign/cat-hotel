@@ -64,3 +64,9 @@ Local verification: original header/footer assets loaded at 150px; default/actio
 Hero now shares `.container` with the header, booking desk and page content, replacing its independent 1680px maximum and outer gutters. Removed the mobile booking desk's wider override so its edges also match. Hero height, film, corners and typography preserved; versioned CSS/module URLs refreshed.
 
 Verified equal left/right edges in Chrome: 320px (20–300), 390px (20–370), 768px (32–736), 1440px (90–1350), 1920px (240–1680). No horizontal overflow; narrow headline and booking fields fit. Static build and diff checks pass. Single design scan has only existing type/radius advisories and approved cream-palette warning; no new design changes made from these.
+
+## Pink cursor and larger booking wording — 28 October 2026
+
+User requested just the pink paw for the cursor, original artwork for the logo, and slightly larger booking wording. Cursor now uses `pink-paw.svg` at hotspot 16,21; header/footer and favicon retain the original grey-and-pink artwork. Increased quick-book labels/values, modal labels/inputs/actions, room options and right-side price summary. Text fields 16px, labels and summary rows 14px, supporting notices 12px. At ≤480px booking dialog dates stack to preserve legibility; larger phones/tablets retain appropriate columns. Hero alignment preserved.
+
+QA: desktop 1440px and tablet 768px modal screenshots; 390px quick booking/header; 320px date, guest, payment and completed preview journey. No page/dialog horizontal overflow in checked states after stacking date fields; clicks work with updated cursor. Original logo asset confirmed. Build and diff check pass. One detector scan retains established typography/radius advisories and explicitly approved cream palette. No media generation or credit spending.

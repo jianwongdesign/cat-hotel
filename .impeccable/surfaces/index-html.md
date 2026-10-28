@@ -39,3 +39,5 @@ POLISH — 28 October 2026: user approved this layout and requested only a round
 BRAND CORRECTION: use the original grey-and-pink paw artwork from littlepawcious.sg for the desktop cursor and header/footer mark; replace the authored paw-print cursors.
 
 HERO ALIGNMENT: hero stage and reservation desk use the same responsive container as the header and page content, including mobile. No independent wider hero gutter.
+
+CURSOR / BOOKING REFINEMENT: standalone pink paw-pad cursor; original grey-and-pink artwork retained in the logo. Increase booking labels, date values, actions and right-side summary text for readability; stack dialog date fields on narrow phones.

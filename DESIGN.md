@@ -50,7 +50,7 @@ typography:
     lineHeight: 1.35
   field-label:
     fontFamily: "Albert Sans, sans-serif"
-    fontSize: "12px"
+    fontSize: "14px"
     fontWeight: 500
     lineHeight: 1.65
 rounded:
@@ -144,7 +144,7 @@ The hierarchy is rounded and compact, with negative tracking on headings. The ba
 - Room titles: 27px/1.15 normally, 23px at ≤1150px, 29px at ≤600px and 26px at ≤359px. Prices use Gabarito and tabular numerals.
 - Care headline: `clamp(42px, 4.4vw, 64px)`; 44px at ≤850px and 47px at ≤600px.
 - Booking heading: 35px, 28px on mobile. Room dialog heading: 36px, 30px at ≤850px. Booking form section titles: 20px.
-- Dialog text fields: 14px normally and 16px at ≤600px. Local supporting text ranges from small disclosure labels to 13–14px paragraphs; do not treat the 16px body token as every paragraph's computed size.
+- Dialog text fields: 16px at every breakpoint; labels 14px. The quick reservation desk uses 13px labels and 15px date/guest values (14px at ≤359px). Local supporting text ranges from small disclosure labels to 13–14px paragraphs; do not treat the 16px body token as every paragraph's computed size.
 
 ## Layout
 
@@ -191,7 +191,7 @@ Rounded rectangles repeat across controls and media: buttons 14px, photographs a
 
 **FAQ.** Native details/summary rows use dividing lines and a plus icon that rotates 45 degrees when open. Keep keyboard focus visible and the native disclosure semantics.
 
-**Desktop paw cursor.** Reuse the original grey paw with pink pads from the hotel's existing header. `public/cursors/original-paw.png` preserves the 150px source artwork for the header/footer; `public/cursors/paw.png` is its proportional 32px cursor export. Only `(hover: hover) and (pointer: fine)` receives the custom cursor, with hotspot 19 7 at the upper paw tip. The same image and hotspot apply to page and actions, with `auto` and `pointer` fallbacks respectively. Editable text inputs retain a text cursor; disabled controls and room labels use `not-allowed`. Coarse/touch devices retain platform behaviour. No cursor follower or trailing animation. See `docs/MEDIA.md` for provenance.
+**Desktop paw cursor.** The cursor is a standalone pink paw-pad SVG (`public/cursors/pink-paw.svg`), with a consistent centre-pad hotspot at 16 21. The logo keeps the original grey paw with pink pads from the hotel's existing header. `public/cursors/original-paw.png` preserves the 150px source artwork for the header/footer; `public/cursors/paw.png` is its proportional 32px favicon export. Only `(hover: hover) and (pointer: fine)` receives the custom cursor, with hotspot 16 21 at the centre pad. The same image and hotspot apply to page and actions, with `auto` and `pointer` fallbacks respectively. Editable text inputs retain a text cursor; disabled controls and room labels use `not-allowed`. Coarse/touch devices retain platform behaviour. No cursor follower or trailing animation. See `docs/MEDIA.md` for provenance.
 
 **Atmosphere film and motion.** The existing 7.5-second AI-created silent loop remains visibly disclosed. A poster and Play/Pause/Retry control are present. At first source assignment, ≤600px selects the 960×540 encode; larger screens select 1920×1080. The source is assigned only when playback is requested and the film is visible. Playback pauses offscreen, in a hidden document or while a dialog is open. Reduced-motion/data-saving preferences start with the poster; explicit Play is available. Preference changes toward reduced motion or data saving stop requested playback. Reduced motion also disables CSS transitions/animations and switches smooth scrolling to auto. Film source, mobile encode and offscreen pause have prior handoff evidence; reduced-motion/data-saving runtime emulation remains unverified, with behaviour reviewed from source only. See `docs/REDESIGN-HANDOFF.md` and `docs/MEDIA.md` for verification limits and provenance.
 
@@ -212,3 +212,5 @@ Rounded rectangles repeat across controls and media: buttons 14px, photographs a
 - **Don't** turn the open catalogue into floating cards or add hover lifts and scroll reveals.
 - **Don't** invent reviews, live availability, reservation success or payment collection.
 - **Don't** describe source-reviewed preference behaviour as runtime verified.
+
+Booking readability: quick-book heading 26px; dialog labels, room names, summary rows and primary buttons 14px; inputs 16px; supporting notices 12px; room capacity 11px. Mobile progress labels are 11px (10px at ≤359px), dialog actions 13px. Booking date fields stack at ≤480px to avoid clipping native date controls.

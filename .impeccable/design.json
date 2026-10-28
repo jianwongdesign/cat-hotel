@@ -377,9 +377,9 @@
       "name": "Booking Text Field",
       "kind": "input",
       "refersTo": "form-field",
-      "description": "White dialog field; mobile text size rises to 16px.",
+      "description": "Ivory dialog field with 16px input text and 14px labels.",
       "html": "<label class=\"ds-label\">Your name<input class=\"ds-field\" placeholder=\"e.g. Alex Tan\" autocomplete=\"off\"></label>",
-      "css": ".ds-label{display:block;color:var(--ink,#3b262b);font:500 12px/1.65 \"Albert Sans\",sans-serif}.ds-field{display:block;width:100%;min-width:0;min-height:43px;padding:11px;margin-top:8px;border:1px solid var(--line,#e4d8d2);border-radius:10px;background:var(--paper,#fffdf9);color:var(--ink,#3b262b);font:400 14px/1.65 \"Albert Sans\",sans-serif;caret-color:var(--rust,#9e403b);cursor:text}.ds-field:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}@media(max-width:600px){.ds-field{font-size:16px}}"
+      "css": ".ds-label{display:block;color:var(--ink,#3b262b);font:500 14px/1.65 \"Albert Sans\",sans-serif}.ds-field{display:block;width:100%;min-width:0;min-height:43px;padding:11px;margin-top:8px;border:1px solid var(--line,#e4d8d2);border-radius:10px;background:var(--paper,#fffdf9);color:var(--ink,#3b262b);font:400 16px/1.65 \"Albert Sans\",sans-serif;caret-color:var(--rust,#9e403b);cursor:text}.ds-field:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}@media(max-width:600px){.ds-field{font-size:16px}}"
     },
     {
       "name": "Desktop Navigation",
@@ -402,7 +402,7 @@
       "refersTo": "room-option",
       "description": "Selected booking room with a border and ring; photo omitted from this primitive preview.",
       "html": "<label class=\"ds-option\"><input type=\"radio\" name=\"ds-room\" checked><span><strong>Felis Cabins</strong><small>1 medium / large cat or 2 small cats</small></span><b>S$45<small>/ day</small></b></label>",
-      "css": ".ds-option{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid var(--line,#e4d8d2);border-radius:14px;background:var(--paper,#fffdf9);color:var(--ink,#3b262b);font:500 12px/1.65 \"Albert Sans\",sans-serif;cursor:pointer}.ds-option:has(input:checked){border-color:var(--rust,#9e403b);box-shadow:0 0 0 1px var(--rust,#9e403b)}.ds-option input{accent-color:var(--rust,#9e403b);width:16px;height:16px;flex:none}.ds-option strong{display:block;font-size:12px;font-weight:500}.ds-option small{display:block;font-size:9px;color:var(--muted,#756368);font-weight:400;margin-top:3px}.ds-option b{margin-left:auto;font-size:16px;font-weight:500;white-space:nowrap;font-variant-numeric:tabular-nums}.ds-option input:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}"
+      "css": ".ds-option{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid var(--line,#e4d8d2);border-radius:14px;background:var(--paper,#fffdf9);color:var(--ink,#3b262b);font:500 12px/1.65 \"Albert Sans\",sans-serif;cursor:pointer}.ds-option:has(input:checked){border-color:var(--rust,#9e403b);box-shadow:0 0 0 1px var(--rust,#9e403b)}.ds-option input{accent-color:var(--rust,#9e403b);width:16px;height:16px;flex:none}.ds-option strong{display:block;font-size:14px;font-weight:500}.ds-option small{display:block;font-size:11px;color:var(--muted,#756368);font-weight:400;margin-top:3px}.ds-option b{margin-left:auto;font-size:18px;font-weight:500;white-space:nowrap;font-variant-numeric:tabular-nums}.ds-option input:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}"
     }
   ],
   "narrative": {
