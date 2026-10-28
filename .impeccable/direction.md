@@ -1,4 +1,6 @@
-# Little Pawcious refinement — 28 October 2026
+# Historical Little Pawcious refinement — 28 October 2026
+
+Superseded after user feedback that this design was too plain and empty. Current direction: `.impeccable/surfaces/index-html.md`.
 
 User-confirmed direction: a cosy, understated boutique hotel. Preserve the warm cream/terracotta identity, real room information and existing booking-preview functionality. Scope: distill existing homepage and author one calm looping hotel film, not a product rebrand.
 

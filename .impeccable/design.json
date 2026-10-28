@@ -1,180 +1,321 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-28T06:10:51.308577+00:00",
+  "generatedAt": "2026-10-28T06:37:18.065257+00:00",
   "title": "Design System: Little Pawcious",
   "extensions": {
     "colorMeta": {
       "cream": {
         "role": "neutral",
-        "displayName": "Warm Cream",
+        "displayName": "Cream",
         "tonalRamp": [
-          "oklch(15% 0.0098 87.47)",
-          "oklch(26% 0.0098 87.47)",
-          "oklch(38% 0.0098 87.47)",
-          "oklch(49% 0.0098 87.47)",
-          "oklch(61% 0.0098 87.47)",
-          "oklch(72% 0.0098 87.47)",
-          "oklch(84% 0.0098 87.47)",
-          "oklch(95% 0.0098 87.47)"
+          "oklch(15% 0.0096 72.66)",
+          "oklch(26% 0.0096 72.66)",
+          "oklch(38% 0.0096 72.66)",
+          "oklch(49% 0.0096 72.66)",
+          "oklch(61% 0.0096 72.66)",
+          "oklch(72% 0.0096 72.66)",
+          "oklch(84% 0.0096 72.66)",
+          "oklch(95% 0.0096 72.66)"
         ]
       },
       "paper": {
         "role": "neutral",
-        "displayName": "Soft Paper",
+        "displayName": "Paper",
         "tonalRamp": [
-          "oklch(15% 0.0069 88.64)",
-          "oklch(26% 0.0069 88.64)",
-          "oklch(38% 0.0069 88.64)",
-          "oklch(49% 0.0069 88.64)",
-          "oklch(61% 0.0069 88.64)",
-          "oklch(72% 0.0069 88.64)",
-          "oklch(84% 0.0069 88.64)",
-          "oklch(95% 0.0069 88.64)"
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
         ]
       },
       "ink": {
         "role": "neutral",
-        "displayName": "Dark Brown",
+        "displayName": "Ink",
         "tonalRamp": [
-          "oklch(15% 0.0192 39.26)",
-          "oklch(26% 0.0192 39.26)",
-          "oklch(38% 0.0192 39.26)",
-          "oklch(49% 0.0192 39.26)",
-          "oklch(61% 0.0192 39.26)",
-          "oklch(72% 0.0192 39.26)",
-          "oklch(84% 0.0192 39.26)",
-          "oklch(95% 0.0192 39.26)"
+          "oklch(15% 0.0327 3.63)",
+          "oklch(26% 0.0327 3.63)",
+          "oklch(38% 0.0327 3.63)",
+          "oklch(49% 0.0327 3.63)",
+          "oklch(61% 0.0327 3.63)",
+          "oklch(72% 0.0327 3.63)",
+          "oklch(84% 0.0327 3.63)",
+          "oklch(95% 0.0327 3.63)"
         ]
       },
       "muted": {
         "role": "neutral",
-        "displayName": "Muted Brown",
+        "displayName": "Muted",
         "tonalRamp": [
-          "oklch(15% 0.0208 59.17)",
-          "oklch(26% 0.0208 59.17)",
-          "oklch(38% 0.0208 59.17)",
-          "oklch(49% 0.0208 59.17)",
-          "oklch(61% 0.0208 59.17)",
-          "oklch(72% 0.0208 59.17)",
-          "oklch(84% 0.0208 59.17)",
-          "oklch(95% 0.0208 59.17)"
+          "oklch(15% 0.0242 359.37)",
+          "oklch(26% 0.0242 359.37)",
+          "oklch(38% 0.0242 359.37)",
+          "oklch(49% 0.0242 359.37)",
+          "oklch(61% 0.0242 359.37)",
+          "oklch(72% 0.0242 359.37)",
+          "oklch(84% 0.0242 359.37)",
+          "oklch(95% 0.0242 359.37)"
         ]
       },
       "rust": {
         "role": "primary",
-        "displayName": "Terracotta",
+        "displayName": "Rust",
         "tonalRamp": [
-          "oklch(15% 0.1237 34.42)",
-          "oklch(26% 0.1237 34.42)",
-          "oklch(38% 0.1237 34.42)",
-          "oklch(49% 0.1237 34.42)",
-          "oklch(61% 0.1237 34.42)",
-          "oklch(72% 0.1237 34.42)",
-          "oklch(84% 0.1237 34.42)",
-          "oklch(95% 0.1237 34.42)"
+          "oklch(15% 0.1266 25.76)",
+          "oklch(26% 0.1266 25.76)",
+          "oklch(38% 0.1266 25.76)",
+          "oklch(49% 0.1266 25.76)",
+          "oklch(61% 0.1266 25.76)",
+          "oklch(72% 0.1266 25.76)",
+          "oklch(84% 0.1266 25.76)",
+          "oklch(95% 0.1266 25.76)"
         ]
       },
       "rust-dark": {
         "role": "primary",
-        "displayName": "Deep Terracotta",
+        "displayName": "Rust Dark",
         "tonalRamp": [
-          "oklch(15% 0.1082 33.40)",
-          "oklch(26% 0.1082 33.40)",
-          "oklch(38% 0.1082 33.40)",
-          "oklch(49% 0.1082 33.40)",
-          "oklch(61% 0.1082 33.40)",
-          "oklch(72% 0.1082 33.40)",
-          "oklch(84% 0.1082 33.40)",
-          "oklch(95% 0.1082 33.40)"
+          "oklch(15% 0.1144 24.26)",
+          "oklch(26% 0.1144 24.26)",
+          "oklch(38% 0.1144 24.26)",
+          "oklch(49% 0.1144 24.26)",
+          "oklch(61% 0.1144 24.26)",
+          "oklch(72% 0.1144 24.26)",
+          "oklch(84% 0.1144 24.26)",
+          "oklch(95% 0.1144 24.26)"
         ]
       },
       "line": {
         "role": "neutral",
-        "displayName": "Warm Border",
+        "displayName": "Line",
         "tonalRamp": [
-          "oklch(15% 0.0203 77.30)",
-          "oklch(26% 0.0203 77.30)",
-          "oklch(38% 0.0203 77.30)",
-          "oklch(49% 0.0203 77.30)",
-          "oklch(61% 0.0203 77.30)",
-          "oklch(72% 0.0203 77.30)",
-          "oklch(84% 0.0203 77.30)",
-          "oklch(95% 0.0203 77.30)"
+          "oklch(15% 0.0156 48.54)",
+          "oklch(26% 0.0156 48.54)",
+          "oklch(38% 0.0156 48.54)",
+          "oklch(49% 0.0156 48.54)",
+          "oklch(61% 0.0156 48.54)",
+          "oklch(72% 0.0156 48.54)",
+          "oklch(84% 0.0156 48.54)",
+          "oklch(95% 0.0156 48.54)"
         ]
       },
       "blush": {
         "role": "neutral",
-        "displayName": "Pale Blush",
+        "displayName": "Blush",
         "tonalRamp": [
-          "oklch(15% 0.0212 72.14)",
-          "oklch(26% 0.0212 72.14)",
-          "oklch(38% 0.0212 72.14)",
-          "oklch(49% 0.0212 72.14)",
-          "oklch(61% 0.0212 72.14)",
-          "oklch(72% 0.0212 72.14)",
-          "oklch(84% 0.0212 72.14)",
-          "oklch(95% 0.0212 72.14)"
+          "oklch(15% 0.0195 55.14)",
+          "oklch(26% 0.0195 55.14)",
+          "oklch(38% 0.0195 55.14)",
+          "oklch(49% 0.0195 55.14)",
+          "oklch(61% 0.0195 55.14)",
+          "oklch(72% 0.0195 55.14)",
+          "oklch(84% 0.0195 55.14)",
+          "oklch(95% 0.0195 55.14)"
+        ]
+      },
+      "plum": {
+        "role": "secondary",
+        "displayName": "Plum",
+        "tonalRamp": [
+          "oklch(15% 0.0493 2.03)",
+          "oklch(26% 0.0493 2.03)",
+          "oklch(38% 0.0493 2.03)",
+          "oklch(49% 0.0493 2.03)",
+          "oklch(61% 0.0493 2.03)",
+          "oklch(72% 0.0493 2.03)",
+          "oklch(84% 0.0493 2.03)",
+          "oklch(95% 0.0493 2.03)"
+        ]
+      },
+      "peach": {
+        "role": "secondary",
+        "displayName": "Peach",
+        "tonalRamp": [
+          "oklch(15% 0.0681 53.58)",
+          "oklch(26% 0.0681 53.58)",
+          "oklch(38% 0.0681 53.58)",
+          "oklch(49% 0.0681 53.58)",
+          "oklch(61% 0.0681 53.58)",
+          "oklch(72% 0.0681 53.58)",
+          "oklch(84% 0.0681 53.58)",
+          "oklch(95% 0.0681 53.58)"
+        ]
+      },
+      "room-clay": {
+        "role": "neutral",
+        "displayName": "Room Clay",
+        "tonalRamp": [
+          "oklch(15% 0.0178 59.47)",
+          "oklch(26% 0.0178 59.47)",
+          "oklch(38% 0.0178 59.47)",
+          "oklch(49% 0.0178 59.47)",
+          "oklch(61% 0.0178 59.47)",
+          "oklch(72% 0.0178 59.47)",
+          "oklch(84% 0.0178 59.47)",
+          "oklch(95% 0.0178 59.47)"
+        ]
+      },
+      "filter-clay": {
+        "role": "neutral",
+        "displayName": "Filter Clay",
+        "tonalRamp": [
+          "oklch(15% 0.0241 59.36)",
+          "oklch(26% 0.0241 59.36)",
+          "oklch(38% 0.0241 59.36)",
+          "oklch(49% 0.0241 59.36)",
+          "oklch(61% 0.0241 59.36)",
+          "oklch(72% 0.0241 59.36)",
+          "oklch(84% 0.0241 59.36)",
+          "oklch(95% 0.0241 59.36)"
+        ]
+      },
+      "faq-cream": {
+        "role": "neutral",
+        "displayName": "Faq Cream",
+        "tonalRamp": [
+          "oklch(15% 0.0145 64.34)",
+          "oklch(26% 0.0145 64.34)",
+          "oklch(38% 0.0145 64.34)",
+          "oklch(49% 0.0145 64.34)",
+          "oklch(61% 0.0145 64.34)",
+          "oklch(72% 0.0145 64.34)",
+          "oklch(84% 0.0145 64.34)",
+          "oklch(95% 0.0145 64.34)"
+        ]
+      },
+      "summary-clay": {
+        "role": "neutral",
+        "displayName": "Summary Clay",
+        "tonalRamp": [
+          "oklch(15% 0.0204 58.05)",
+          "oklch(26% 0.0204 58.05)",
+          "oklch(38% 0.0204 58.05)",
+          "oklch(49% 0.0204 58.05)",
+          "oklch(61% 0.0204 58.05)",
+          "oklch(72% 0.0204 58.05)",
+          "oklch(84% 0.0204 58.05)",
+          "oklch(95% 0.0204 58.05)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Error",
+        "tonalRamp": [
+          "oklch(15% 0.1589 30.98)",
+          "oklch(26% 0.1589 30.98)",
+          "oklch(38% 0.1589 30.98)",
+          "oklch(49% 0.1589 30.98)",
+          "oklch(61% 0.1589 30.98)",
+          "oklch(72% 0.1589 30.98)",
+          "oklch(84% 0.1589 30.98)",
+          "oklch(95% 0.1589 30.98)"
+        ]
+      },
+      "success-bg": {
+        "role": "neutral",
+        "displayName": "Success Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0246 119.52)",
+          "oklch(26% 0.0246 119.52)",
+          "oklch(38% 0.0246 119.52)",
+          "oklch(49% 0.0246 119.52)",
+          "oklch(61% 0.0246 119.52)",
+          "oklch(72% 0.0246 119.52)",
+          "oklch(84% 0.0246 119.52)",
+          "oklch(95% 0.0246 119.52)"
+        ]
+      },
+      "success-ink": {
+        "role": "neutral",
+        "displayName": "Success Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0592 127.42)",
+          "oklch(26% 0.0592 127.42)",
+          "oklch(38% 0.0592 127.42)",
+          "oklch(49% 0.0592 127.42)",
+          "oklch(61% 0.0592 127.42)",
+          "oklch(72% 0.0592 127.42)",
+          "oklch(84% 0.0592 127.42)",
+          "oklch(95% 0.0592 127.42)"
         ]
       }
     },
     "typographyMeta": {
       "display": {
-        "displayName": "Hero Display",
-        "purpose": "Main hero heading; responsive overrides are documented in DESIGN.md."
+        "displayName": "Display",
+        "purpose": "Hero headline; responsive variants in DESIGN.md."
       },
       "headline": {
-        "displayName": "Section Headline",
-        "purpose": "Primary section headings."
+        "displayName": "Headline",
+        "purpose": "Base section headings; care and contact have local variants."
       },
       "title": {
-        "displayName": "Base Title",
-        "purpose": "Base h3 style; room names use a documented size variant."
+        "displayName": "Title",
+        "purpose": "Base heading style; room titles have responsive variants."
       },
       "body": {
         "displayName": "Body",
-        "purpose": "Base document text; local content has smaller scales."
+        "purpose": "Document base; local paragraph and disclosure sizes vary."
       },
       "button": {
-        "displayName": "Primary Button",
-        "purpose": "Base action typography."
+        "displayName": "Button",
+        "purpose": "Base primary action."
       },
       "field-label": {
         "displayName": "Field Label",
-        "purpose": "Booking dialog labels."
+        "purpose": "Booking dialog label."
       }
     },
     "shadows": [
       {
+        "name": "reservation-desk",
+        "value": "0 12px 40px #48283213",
+        "purpose": "White desk over the film edge."
+      },
+      {
+        "name": "reservation-desk-mobile",
+        "value": "0 8px 26px #48283213",
+        "purpose": "Desk at <=600px."
+      },
+      {
         "name": "dialog",
         "value": "0 30px 100px #251c2340",
-        "purpose": "Modal separation only."
+        "purpose": "Modal separation."
       },
       {
         "name": "selected-room",
         "value": "0 0 0 1px var(--rust)",
-        "purpose": "Selected booking room ring."
+        "purpose": "Selected room ring."
       }
     ],
     "motion": [
       {
         "name": "button-background",
         "value": "background .18s",
-        "purpose": "Primary button color transition; CSS default ease."
+        "purpose": "Primary action hover; CSS default ease."
+      },
+      {
+        "name": "room-photo",
+        "value": "filter .2s",
+        "purpose": "Hover brightness(.94); no lift."
       },
       {
         "name": "scroll",
         "value": "smooth",
-        "purpose": "Anchor scroll; auto under prefers-reduced-motion."
+        "purpose": "Anchor scrolling; auto under reduced motion."
       },
       {
         "name": "reduced-motion",
         "value": "animation: none !important; transition: none !important",
-        "purpose": "All elements and pseudo-elements under prefers-reduced-motion: reduce."
+        "purpose": "All elements and pseudo-elements when reduced motion is requested."
       },
       {
         "name": "hotel-film",
         "value": "7.5s loop",
-        "purpose": "Single silent atmosphere film with manual control and visibility/dialog/preference gates."
+        "purpose": "Visible/requested playback only; poster, Play/Pause/Retry and dialog/visibility/preference gates. Reduced-motion/data-saving runtime emulation remains unverified."
       }
     ],
     "breakpoints": [
@@ -184,7 +325,7 @@
       },
       {
         "name": "compact-desktop",
-        "value": "(max-width: 1100px)"
+        "value": "(max-width: 1150px)"
       },
       {
         "name": "navigation-collapse",
@@ -197,6 +338,14 @@
       {
         "name": "narrow-mobile",
         "value": "(max-width: 359px)"
+      },
+      {
+        "name": "native-paw-cursor",
+        "value": "(hover: hover) and (pointer: fine)"
+      },
+      {
+        "name": "reduced-motion",
+        "value": "(prefers-reduced-motion: reduce)"
       }
     ]
   },
@@ -205,87 +354,92 @@
       "name": "Primary Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Terracotta booking action with quiet color feedback.",
-      "html": "<button class=\"ds-button\">Book a stay <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
-      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:24px;border:1px solid var(--rust,#a84e39);border-radius:3px;background:var(--rust,#a84e39);color:var(--paper,#fffdf8);padding:16px 22px;font:500 13px/1.35 \"DM Sans\",sans-serif;white-space:nowrap;cursor:pointer;transition:background .18s}.ds-button:hover{background:var(--rust-dark,#873b2b);border-color:var(--rust-dark,#873b2b)}.ds-button:focus-visible{outline:2px solid var(--rust,#a84e39);outline-offset:5px}"
+      "description": "Rust reservation action; background feedback without movement.",
+      "html": "<button class=\"ds-button\">Book a stay <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:22px;border:0;border-radius:8px;background:var(--rust,#9e403b);color:#fff;padding:16px 22px;min-height:48px;font:600 14px/1.35 \"Albert Sans\",sans-serif;white-space:nowrap;cursor:pointer;transition:background .18s}.ds-button:hover{background:var(--rust-dark,#7d2b2a)}.ds-button:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}"
     },
     {
       "name": "Light Contact Button",
       "kind": "button",
       "refersTo": "button-light",
-      "description": "Cream action on the terracotta contact surface, including the cream focus ring.",
-      "html": "<div class=\"ds-contact\"><button class=\"ds-button ds-light\">Arrange a viewing <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button></div>",
-      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:24px;border:1px solid var(--rust,#a84e39);border-radius:3px;background:var(--rust,#a84e39);color:var(--paper,#fffdf8);padding:16px 22px;font:500 13px/1.35 \"DM Sans\",sans-serif;white-space:nowrap;cursor:pointer;transition:background .18s}.ds-button:hover{background:var(--rust-dark,#873b2b);border-color:var(--rust-dark,#873b2b)}.ds-button:focus-visible{outline:2px solid var(--rust,#a84e39);outline-offset:5px}.ds-contact{background:var(--rust,#a84e39);padding:24px}.ds-light{background:var(--cream,#f8f5ee);color:var(--rust,#a84e39);border-color:var(--cream,#f8f5ee);font-size:12px}.ds-light:hover{background:#ebd9c4;color:var(--rust,#a84e39);border-color:#ebd9c4}.ds-light:focus-visible{outline-color:var(--cream,#f8f5ee)}"
+      "description": "Warm-white action on the rust contact chapter.",
+      "html": "<div class=\"ds-contact\"><button class=\"ds-button ds-light\">Arrange a viewing <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button></div>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:22px;border:0;border-radius:8px;background:var(--rust,#9e403b);color:#fff;padding:16px 22px;min-height:48px;font:600 14px/1.35 \"Albert Sans\",sans-serif;white-space:nowrap;cursor:pointer;transition:background .18s}.ds-button:hover{background:var(--rust-dark,#7d2b2a)}.ds-button:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}.ds-contact{background:var(--rust,#9e403b);padding:24px}.ds-light{background:var(--cream,#fffaf4);color:var(--rust,#9e403b);font-size:13px}.ds-light:hover{background:var(--peach,#f6c6a8);color:var(--plum,#492932)}.ds-light:focus-visible{outline-color:var(--cream,#fffaf4)}"
     },
     {
       "name": "Text Action",
       "kind": "button",
-      "description": "Underlined action used beside room information.",
-      "html": "<button class=\"ds-text-link\">Room details <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
-      "css": ".ds-text-link{display:inline-flex;align-items:center;gap:22px;border:0;border-bottom:1px solid currentColor;background:none;color:var(--ink,#382c28);padding:5px 0;font:500 13px/1.5 \"DM Sans\",sans-serif;cursor:pointer}.ds-text-link:hover{color:var(--rust,#a84e39)}.ds-text-link:focus-visible{outline:2px solid var(--rust,#a84e39);outline-offset:5px}"
+      "description": "Underlined secondary action.",
+      "html": "<button class=\"ds-text\">Explore the rooms <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-text{display:inline-flex;align-items:center;gap:20px;background:none;border:0;border-bottom:1px solid currentColor;color:var(--ink,#3b262b);padding:7px 0;min-height:36px;font:600 14px/1.65 \"Albert Sans\",sans-serif;cursor:pointer}.ds-text:hover{color:var(--rust,#9e403b)}.ds-text:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}"
     },
     {
       "name": "Booking Text Field",
       "kind": "input",
       "refersTo": "form-field",
-      "description": "Paper field inside the booking dialog; native form behavior.",
+      "description": "White dialog field; mobile text size rises to 16px.",
       "html": "<label class=\"ds-label\">Your name<input class=\"ds-field\" placeholder=\"e.g. Alex Tan\" autocomplete=\"off\"></label>",
-      "css": ".ds-label{display:block;color:var(--ink,#382c28);font:500 11px/1.65 \"DM Sans\",sans-serif}.ds-field{display:block;width:100%;min-width:0;border:1px solid var(--line,#dcd3c6);padding:11px;border-radius:5px;background:var(--paper,#fffdf8);color:var(--ink,#382c28);margin-top:8px;font:400 12px/1.65 \"DM Sans\",sans-serif;min-height:43px;caret-color:var(--rust,#a84e39)}.ds-field:focus-visible{outline:2px solid var(--rust,#a84e39);outline-offset:5px}"
+      "css": ".ds-label{display:block;color:var(--ink,#3b262b);font:500 12px/1.65 \"Albert Sans\",sans-serif}.ds-field{display:block;width:100%;min-width:0;min-height:43px;padding:11px;margin-top:8px;border:1px solid var(--line,#e4d8d2);border-radius:5px;background:var(--paper,#fff);color:var(--ink,#3b262b);font:400 14px/1.65 \"Albert Sans\",sans-serif;caret-color:var(--rust,#9e403b);cursor:text}.ds-field:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}@media(max-width:600px){.ds-field{font-size:16px}}"
     },
     {
       "name": "Desktop Navigation",
       "kind": "nav",
-      "description": "Plain centered navigation links; the actual site collapses these at 850px.",
+      "description": "Centred warm-white links; production navigation collapses at 850px.",
       "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#rooms\">Rooms &amp; rates</a><a href=\"#care\">Life at Pawcious</a><a href=\"#before\">Before your stay</a><a href=\"#contact\">Find us</a></nav>",
-      "css": ".ds-nav{display:flex;justify-content:center;gap:28px;background:var(--cream,#f8f5ee);font:400 12px/1.65 \"DM Sans\",sans-serif;padding:20px}.ds-nav a{color:var(--ink,#382c28);text-decoration:none}.ds-nav a:hover{color:var(--rust,#a84e39)}.ds-nav a:focus-visible{outline:2px solid var(--rust,#a84e39);outline-offset:5px}"
+      "css": ".ds-nav{display:flex;justify-content:center;gap:27px;flex-wrap:wrap;padding:20px;background:var(--cream,#fffaf4);font:600 13px/1.65 \"Albert Sans\",sans-serif}.ds-nav a{padding:10px 0;text-decoration:none;color:var(--ink,#3b262b)}.ds-nav a:hover{color:var(--rust,#9e403b)}.ds-nav a:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}"
     },
     {
-      "name": "Room Filters",
-      "kind": "custom",
-      "description": "Text filters with an active underline; not filled chips. The snippet shows the initial state.",
+      "name": "Room Filter Tray",
+      "kind": "chip",
+      "refersTo": "room-filter-active",
+      "description": "Rounded filter tray with white active segment; initial visual state.",
       "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"Filter rooms\"><button class=\"ds-active\" aria-pressed=\"true\">All rooms</button><button aria-pressed=\"false\">Solo stays</button><button aria-pressed=\"false\">Family stays</button></div>",
-      "css": ".ds-filters{display:flex;gap:22px;border-bottom:1px solid var(--line,#dcd3c6)}.ds-filters button{font:400 12px/1.65 \"DM Sans\",sans-serif;background:none;border:0;border-bottom:2px solid transparent;padding:8px 0 12px;white-space:nowrap;color:var(--muted,#70645b);cursor:pointer}.ds-filters .ds-active{border-bottom-color:var(--rust,#a84e39);color:var(--rust,#a84e39)}.ds-filters button:focus-visible{outline:2px solid var(--rust,#a84e39);outline-offset:5px}"
+      "css": ".ds-filters{display:inline-flex;gap:6px;padding:5px;border-radius:9px;background:#e5d5c9}.ds-filters button{border:0;background:none;min-height:38px;padding:9px 15px;font:600 12px/1.65 \"Albert Sans\",sans-serif;border-radius:6px;color:var(--ink,#3b262b);cursor:pointer}.ds-filters .ds-active{background:var(--paper,#fff);color:var(--rust,#9e403b)}.ds-filters button:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}"
     },
     {
       "name": "Room Selection Option",
       "kind": "card",
       "refersTo": "room-option",
-      "description": "Compact selectable booking surface; the open homepage catalogue remains unboxed. Image omitted from this primitive preview.",
+      "description": "Selected booking room with a border and ring; photo omitted from this primitive preview.",
       "html": "<label class=\"ds-option\"><input type=\"radio\" name=\"ds-room\" checked><span><strong>Felis Cabins</strong><small>1 medium / large cat or 2 small cats</small></span><b>S$45<small>/ day</small></b></label>",
-      "css": ".ds-option{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid var(--line,#dcd3c6);border-radius:7px;background:var(--paper,#fffdf8);color:var(--ink,#382c28);font:500 11px/1.65 \"DM Sans\",sans-serif;cursor:pointer}.ds-option:has(input:checked){border-color:var(--rust,#a84e39);box-shadow:0 0 0 1px var(--rust,#a84e39)}.ds-option input{accent-color:var(--rust,#a84e39);width:16px;height:16px;flex:none}.ds-option strong{display:block;font-size:12px;font-weight:500}.ds-option small{display:block;font-size:9px;color:var(--muted,#70645b);font-weight:400;margin-top:3px}.ds-option b{margin-left:auto;font-size:16px;font-weight:500;white-space:nowrap}.ds-option input:focus-visible{outline:2px solid var(--rust,#a84e39);outline-offset:5px}"
+      "css": ".ds-option{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid var(--line,#e4d8d2);border-radius:9px;background:var(--paper,#fff);color:var(--ink,#3b262b);font:500 12px/1.65 \"Albert Sans\",sans-serif;cursor:pointer}.ds-option:has(input:checked){border-color:var(--rust,#9e403b);box-shadow:0 0 0 1px var(--rust,#9e403b)}.ds-option input{accent-color:var(--rust,#9e403b);width:16px;height:16px;flex:none}.ds-option strong{display:block;font-size:12px;font-weight:500}.ds-option small{display:block;font-size:9px;color:var(--muted,#756368);font-weight:400;margin-top:3px}.ds-option b{margin-left:auto;font-size:16px;font-weight:500;white-space:nowrap;font-variant-numeric:tabular-nums}.ds-option input:focus-visible{outline:3px solid var(--rust,#9e403b);outline-offset:5px}"
     }
   ],
   "narrative": {
-    "northStar": "A cosy, understated boutique hotel",
-    "overview": "Preserve the confirmed cream and terracotta identity, restrained Newsreader display type, clear DM Sans text and generous open layouts. Real room photographs carry the catalogue; one calm lounge film supplies atmosphere. The remaining paw mark belongs to the brand lockup, not decorative stamps.\n\nThis is a source-derived record of the current design preview, captured 28 October 2026 from `src/styles.css`, `src/app.js` and `src/video.js`. Reservations, availability and payments are not live. Direction is recorded in `.impeccable/direction.md`; production gates and asset provenance remain in `docs/DESIGN-HANDOFF.md` and `docs/MEDIA.md`.",
+    "northStar": "A contemporary cat-hotel showroom",
+    "overview": "Warm white, espresso-plum and clay frame substantial real photography. Rounded humanist headings, compact content groupings and confident colour give the cosy boutique identity more presence. Controls are inset, approachable and easy to find; imagery carries the setting without decorative sticker badges.\n\nThis source-derived record supersedes the previous restrained Newsreader/DM Sans design, which the user rejected as too plain and empty. It captures `src/styles.css`, `src/app.js` and `src/video.js` on 28 October 2026. Product truth belongs to `PRODUCT.md`; the homepage composition and direction belong to `.impeccable/surfaces/index-html.md`. The implementation remains a design and booking/payment preview. No inventory, reservation holds, payment collection or confirmation emails are connected.",
     "keyCharacteristics": [
-      "Warm, quiet surfaces with dark brown text and terracotta actions.",
-      "Rectangular photography, open room rows and fine dividing rules.",
-      "Serif headings paired with small, legible task labels.",
-      "A single controlled atmosphere film and explicit preview notices."
+      "Warm white surfaces, plum chapters, clay backgrounds and rust actions.",
+      "Gabarito headings with Albert Sans body and control text.",
+      "Substantial room photography, visible capacity/rates and close content grouping.",
+      "Rounded inset controls, a native desktop paw cursor and touch-ready layouts.",
+      "A controlled atmosphere film and explicit preview notices."
     ],
     "rules": [
       {
         "name": "The Contrast Rule",
-        "body": "Keep the global rust focus outline on pale surfaces and the cream override on the rust contact section.",
+        "body": "Use the rust focus outline on pale surfaces, warm white on the hero and rust contact section, and peach on the care chapter action.",
         "section": "colors"
       },
       {
-        "name": "The Quiet Surface Rule",
-        "body": "Keep room catalogue rows unboxed and stationary; reserve elevation for modal separation and selection feedback.",
+        "name": "The Purposeful Depth Rule",
+        "body": "Use elevation to clarify the reservation desk, modal layer and selected room; retain open catalogue text and stationary cards.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "**Do** preserve cream, terracotta, Newsreader and DM Sans as the confirmed identity.",
-      "**Do** keep room photography, factual capacity/rates and open catalogue layouts together.",
-      "**Do** retain visible keyboard focus, motion controls and explicit preview notices.",
-      "**Do** distinguish the AI atmosphere film from real room photographs."
+      "**Do** use Gabarito, Albert Sans, warm white, plum, rust and clay as the current implemented identity.",
+      "**Do** keep actual room photographs, capacity and rates prominent and close together.",
+      "**Do** preserve visible focus, native controls, film controls and fine-pointer-only paw cursors.",
+      "**Do** keep AI atmosphere footage distinct from actual room photography.",
+      "**Do** retain explicit preview notices throughout booking and payment states."
     ],
     "donts": [
-      "**Don't** add decorative paw stamps, stars, arches, scribbled arrows or floating callouts.",
-      "**Don't** add scroll reveals, hover lifts or framed room cards to this refinement.",
-      "**Don't** imply that the booking design reserves inventory or takes payment."
+      "**Don't** restore the superseded sparse Newsreader/DM Sans aesthetic.",
+      "**Don't** add decorative sticker badges, cursor followers or trailing animations.",
+      "**Don't** turn the open catalogue into floating cards or add hover lifts and scroll reveals.",
+      "**Don't** invent reviews, live availability, reservation success or payment collection.",
+      "**Don't** describe source-reviewed preference behaviour as runtime verified."
     ]
   }
 }

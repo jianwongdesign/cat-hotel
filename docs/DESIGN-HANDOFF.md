@@ -1,5 +1,7 @@
 # Design handoff — 28 October 2026
 
+> Historical first-cut/refinement record. The current full redesign is documented in [REDESIGN-HANDOFF.md](REDESIGN-HANDOFF.md).
+
 ## Direction
 
 User-confirmed direction: **a cosy, understated boutique hotel**. Warm cream, terracotta and dark brown stay; Newsreader display type and DM Sans body type are now self-hosted. The wide, quiet lounge film is the main visual moment. Room listings use open horizontal layouts and real photographs. Decorative stamps, arches, badges, handwritten flourishes and eyebrow labels have been removed.

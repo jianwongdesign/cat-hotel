@@ -29,4 +29,4 @@ The generated cat enters around 2.5 seconds and exits around 8 seconds. To short
 
 `src/video.js` loads the appropriate file only when playback is requested and the film is visible. Reduced-motion and data-saving preferences start with the static poster. Explicit Play remains available. Playback pauses when offscreen, hidden or a dialog is open; the user's Pause choice persists for the page session. A failed video retains the poster and exposes Retry. No external video player or tracking embed.
 
-Fonts are self-hosted Newsreader and DM Sans, licensed under the bundled SIL Open Font License files in `public/fonts/`.
+The full redesign reuses the same film and poster without new generation. Fonts are now self-hosted Gabarito and Albert Sans, licensed under the bundled SIL Open Font License files in `public/fonts/`. The two paw cursor SVGs are authored interface icons; they use no third-party artwork.

@@ -1,59 +1,74 @@
 ---
 name: Little Pawcious
-description: Cosy, understated boutique cat hotel design preview.
+description: A contemporary cat-hotel showroom with warm colour, substantial photography and clear reservation controls.
 colors:
-  cream: "#f8f5ee"
-  paper: "#fffdf8"
-  ink: "#382c28"
-  muted: "#70645b"
-  rust: "#a84e39"
-  rust-dark: "#873b2b"
-  line: "#dcd3c6"
-  blush: "#eee3d6"
+  cream: "#fffaf4"
+  paper: "#fff"
+  ink: "#3b262b"
+  muted: "#756368"
+  rust: "#9e403b"
+  rust-dark: "#7d2b2a"
+  line: "#e4d8d2"
+  blush: "#f4e6dd"
+  plum: "#492932"
+  peach: "#f6c6a8"
+  room-clay: "#f2e6dd"
+  filter-clay: "#e5d5c9"
+  faq-cream: "#f7eee6"
+  summary-clay: "#f0e2d8"
+  error: "#a32b1b"
+  success-bg: "#e2e7d5"
+  success-ink: "#596944"
 typography:
   display:
-    fontFamily: "Newsreader, Georgia, serif"
-    fontSize: "clamp(48px, 5.1vw, 78px)"
-    fontWeight: 400
-    lineHeight: 1.06
-    letterSpacing: "-0.025em"
+    fontFamily: "Gabarito, sans-serif"
+    fontSize: "clamp(52px, 5.6vw, 84px)"
+    fontWeight: 600
+    lineHeight: 1.02
+    letterSpacing: "-.035em"
   headline:
-    fontFamily: "Newsreader, Georgia, serif"
-    fontSize: "clamp(42px, 4.4vw, 65px)"
-    fontWeight: 400
+    fontFamily: "Gabarito, sans-serif"
+    fontSize: "clamp(38px, 3.6vw, 56px)"
+    fontWeight: 600
     lineHeight: 1.06
-    letterSpacing: "-0.025em"
+    letterSpacing: "-.035em"
   title:
-    fontFamily: "Newsreader, Georgia, serif"
-    fontSize: "32px"
-    fontWeight: 400
+    fontFamily: "Gabarito, sans-serif"
+    fontSize: "27px"
+    fontWeight: 600
     lineHeight: 1.06
-    letterSpacing: "-0.025em"
+    letterSpacing: "-.025em"
   body:
-    fontFamily: "DM Sans, sans-serif"
-    fontSize: "15px"
+    fontFamily: "Albert Sans, sans-serif"
+    fontSize: "16px"
     fontWeight: 400
     lineHeight: 1.65
   button:
-    fontFamily: "DM Sans, sans-serif"
-    fontSize: "13px"
-    fontWeight: 500
+    fontFamily: "Albert Sans, sans-serif"
+    fontSize: "14px"
+    fontWeight: 600
     lineHeight: 1.35
   field-label:
-    fontFamily: "DM Sans, sans-serif"
-    fontSize: "11px"
+    fontFamily: "Albert Sans, sans-serif"
+    fontSize: "12px"
     fontWeight: 500
+    lineHeight: 1.65
 rounded:
-  button: "3px"
   field: "5px"
-  room-option: "7px"
-  dialog: "15px"
-  dialog-mobile: "6px"
+  filter-option: "6px"
+  button: "8px"
+  room-option: "9px"
+  mobile-desk: "10px"
+  photo: "12px"
+  dialog: "14px"
+  hero: "18px"
 spacing:
-  section: "105px"
-  section-tablet: "75px"
-  section-mobile: "60px"
-  field-padding: "11px"
+  section: "76px"
+  section-tablet: "60px"
+  section-mobile: "45px"
+  room-grid: "25px"
+  button-block: "16px"
+  button-inline: "22px"
 components:
   button-primary:
     backgroundColor: "{colors.rust}"
@@ -68,99 +83,132 @@ components:
     textColor: "{colors.rust}"
     rounded: "{rounded.button}"
     padding: "16px 22px"
+  button-light-hover:
+    backgroundColor: "{colors.peach}"
+    textColor: "{colors.plum}"
   form-field:
     backgroundColor: "{colors.paper}"
     textColor: "{colors.ink}"
     rounded: "{rounded.field}"
-    padding: "{spacing.field-padding}"
+    padding: "11px"
   room-option:
     backgroundColor: "{colors.paper}"
     textColor: "{colors.ink}"
     rounded: "{rounded.room-option}"
     padding: "12px"
+  room-filter-active:
+    backgroundColor: "{colors.paper}"
+    textColor: "{colors.rust}"
+    rounded: "{rounded.filter-option}"
+    padding: "9px 15px"
 ---
 
 # Design System: Little Pawcious
 
 ## Overview
 
-**Creative North Star: "A cosy, understated boutique hotel"**
+**Creative North Star: "A contemporary cat-hotel showroom"**
 
-Preserve the confirmed cream and terracotta identity, restrained Newsreader display type, clear DM Sans text and generous open layouts. Real room photographs carry the catalogue; one calm lounge film supplies atmosphere. The remaining paw mark belongs to the brand lockup, not decorative stamps.
+Warm white, espresso-plum and clay frame substantial real photography. Rounded humanist headings, compact content groupings and confident colour give the cosy boutique identity more presence. Controls are inset, approachable and easy to find; imagery carries the setting without decorative sticker badges.
 
-This is a source-derived record of the current design preview, captured 28 October 2026 from `src/styles.css`, `src/app.js` and `src/video.js`. Reservations, availability and payments are not live. Direction is recorded in `.impeccable/direction.md`; production gates and asset provenance remain in `docs/DESIGN-HANDOFF.md` and `docs/MEDIA.md`.
+This source-derived record supersedes the previous restrained Newsreader/DM Sans design, which the user rejected as too plain and empty. It captures `src/styles.css`, `src/app.js` and `src/video.js` on 28 October 2026. Product truth belongs to `PRODUCT.md`; the homepage composition and direction belong to `.impeccable/surfaces/index-html.md`. The implementation remains a design and booking/payment preview. No inventory, reservation holds, payment collection or confirmation emails are connected.
 
 **Key Characteristics:**
 
-- Warm, quiet surfaces with dark brown text and terracotta actions.
-- Rectangular photography, open room rows and fine dividing rules.
-- Serif headings paired with small, legible task labels.
-- A single controlled atmosphere film and explicit preview notices.
+- Warm white surfaces, plum chapters, clay backgrounds and rust actions.
+- Gabarito headings with Albert Sans body and control text.
+- Substantial room photography, visible capacity/rates and close content grouping.
+- Rounded inset controls, a native desktop paw cursor and touch-ready layouts.
+- A controlled atmosphere film and explicit preview notices.
 
 ## Colors
 
-The root palette above is normative; token names retain the implementation's naming.
+The frontmatter preserves the exact CSS values. Core names map directly to custom properties in `src/styles.css`; descriptive keys such as `room-clay` record existing literal values rather than new CSS variables.
 
-**Primary:** Rust is the action, selection and contact-section color; rust-dark is the primary-button hover. Cream becomes the text and keyboard-focus color on the rust contact surface.
+- **Rust / deep rust:** primary actions, rates, selected inputs and interaction feedback. The deeper tone is the primary-button hover state.
+- **Espresso-plum:** the preview strip, care chapter, mobile hero background and text selection. Peach supplies the care heading and icon contrast.
+- **Warm white / paper:** page canvas and inset white controls. `cream` is the source token name for the current warm white, not the former cream value.
+- **Ink / muted:** body text and supporting copy. Line and blush remain source primitives; blush is retained in the stylesheet but is not a major painted surface.
+- **Clay surfaces:** room catalogue, filter tray, FAQ and booking summary each use their extracted tone.
+- **Error / success:** the booking error text and completed-preview icon use these local status colours. Completion means only that the design journey is complete.
 
-**Neutral:** Cream is the page and dialog canvas, paper the field and option surface, ink the principal text, muted the supporting text, line the borders, and blush the room-image fallback. Additional local surfaces remain deliberately local: care section (`#eee7dc`), booking summary (`#ede5d9`), and review/success summary (`#eee6da`). Validation uses red (`#a32b1b`); completion uses a muted green icon (`#596944`) on pale green (`#e2e7d5`). These are status treatments, not new brand accents.
-
-**The Contrast Rule.** Keep the global rust focus outline on pale surfaces and the cream override on the rust contact section.
+**The Contrast Rule.** Use the rust focus outline on pale surfaces, warm white on the hero and rust contact section, and peach on the care chapter action.
 
 ## Typography
 
-Newsreader and DM Sans are self-hosted WOFF2 fonts, with bundled SIL Open Font Licenses. Newsreader loads weights 400–500; DM Sans loads 400–700. The frontmatter records base roles, not a fabricated modular scale.
+**Display font:** Gabarito, sans-serif; self-hosted variable face, weights 400–800. **Body font:** Albert Sans, sans-serif; self-hosted variable face, weights 400–700. Font files and OFL licences live in `public/fonts/`. The legacy `--serif` variable aliases the current sans-serif heading family and is not a serif directive.
 
-Hero and section headings use the display and headline roles. Room names are a local title variant (36px desktop, 32px at 850px, 33px at 600px). Body defaults are overridden by 14px/1.8 introductory and room copy; room descriptions stop at 430px and care copy at 440px. Navigation is 12px; labels and supporting notes commonly use 10–13px. The brand is serif (29px), with a small tracked sans-serif location line (8px, 0.15em).
+The hierarchy is rounded and compact, with negative tracking on headings. The base display, headline, title and body tokens are normative above; actual surface variants follow the stylesheet:
 
-The hero becomes 52px at 850px, then `clamp(43px, 11.6vw, 68px)` with line-height 1.08 at 600px. Section headings become 43px at 600px. At 1700px and above the hero is 87px. Room prices use Newsreader (29px), lining and tabular numerals; they become 27px on mobile.
+- Hero: 600 weight, line-height 1.02; 92px at ≥1700px, 68px at ≤1150px, 61px at ≤850px, 47px/1.01 at ≤600px, 42px at ≤359px.
+- Room titles: 27px/1.15 normally, 23px at ≤1150px, 29px at ≤600px and 26px at ≤359px. Prices use Gabarito and tabular numerals.
+- Care headline: `clamp(42px, 4.4vw, 64px)`; 44px at ≤850px and 47px at ≤600px.
+- Booking heading: 35px, 28px on mobile. Room dialog heading: 36px, 30px at ≤850px. Booking form section titles: 20px.
+- Dialog text fields: 14px normally and 16px at ≤600px. Local supporting text ranges from small disclosure labels to 13–14px paragraphs; do not treat the 16px body token as every paragraph's computed size.
 
 ## Layout
 
-The default container is `min(1320px, calc(100% - 112px))`. Sections use the frontmatter's section spacing. The header is sticky with a bottom rule; its navigation row is 91px high. The hero has a heading/copy split above a 16:9 film. The booking strip has a caption and four-column form (`1fr 1fr .8fr auto`).
+The desktop container is `min(1260px, calc(100% - 96px))`. Sections use 76px vertical padding and the three-column room grid uses a 25px gap. The current homepage places the film above an overlapping reservation desk, followed by a concise introduction, three-room photographic catalogue, plum care chapter, arrival checklist, FAQ, rust contact section and warm-white footer. That sequence is a surface implementation, not a requirement for every future screen.
 
-Room catalogue rows pair equally sized image and text columns with a 58px gap, 42px bottom padding and a dividing rule; images are 370px tall. Care uses `1fr .9fr` with a 120px gap. Stay, FAQ and contact use equal columns with a 70px gap. Desktop dialogs are at most 1080px wide and 90dvh high; booking uses a flexible form plus a 290px summary with a 30px gap.
-
-| Media query | Implemented response |
+| Media condition | Implemented response |
 | --- | --- |
-| `min-width: 1700px` | Container becomes `min(1440px, calc(100% - 180px))`; hero top padding 70px; room images 410px tall. |
-| `max-width: 1100px` | Container has 32px side gutters; booking caption hides; room gap 35px and image height 350px. |
-| `max-width: 850px` | Header row 80px; navigation becomes a toggled dropdown; sections 75px; room gap 30px and image height 330px; booking summary width 225px. |
-| `max-width: 600px` | Container has 20px side gutters; header row 74px; hero stacks and film bleeds to viewport edges; booking strip becomes two columns; sections 60px. Room, care, stay, FAQ and contact stack; room images are 310px tall. Dialogs become viewport width minus 20px, at most 94dvh; booking summary follows the form and actions are sticky at the bottom. |
-| `max-width: 359px` | Brand icon hides, brand shrinks to 21px; room heading/rate stack; room images are 280px tall; booking progress tightens. |
+| ≥1700px | Container `min(1440px, calc(100% - 160px))`; hero 720px tall; room photos 430px; care photo minimum 730px. |
+| ≤1150px | Container `calc(100% - 64px)`; hero 550px; room photos 330px; room grid gap 20px; tighter navigation and desk. |
+| ≤850px | Navigation collapses to a menu under the 76px header; hero 520px; desk caption hidden; room grid remains three columns with 285px photos and stacked card actions. Sections use 60px padding. Booking columns become content plus a 225px summary. |
+| ≤600px | Container `calc(100% - 40px)`; header 70px; hero 465px; film begins 180px down within the hero. Desk uses two columns and a `calc(100% - 24px)` width. Catalogue, care, arrival, FAQ and contact become one column; room photos are 370px. Sections use 45px padding. Booking summary follows the form; dialog width `calc(100% - 20px)`, maximum height 94dvh, sticky bottom form actions. |
+| ≤359px | Brand icon hidden; hero heading 42px; room photos 325px; smaller gaps and action labels keep the narrow layout usable. |
 
-Anchor scroll clearance is 110px, reduced to 90px on mobile. No viewport class is inferred from device names alone; preserve the actual inclusive media queries.
+Desktop hero outer padding is 20px 24px 0, stage maximum width 1680px, height `clamp(520px, 42vw, 680px)`. The reservation desk overlaps by 48px, reducing to 42px at ≤850px and 34px at ≤600px. Desktop room-detail dialogs use `.9fr 1.1fr`; booking dialogs use content plus a 290px summary. Dialogs default to a maximum height of 90dvh and width `min(1080px, calc(100% - 40px))`.
 
 ## Elevation & Depth
 
-The homepage uses tonal sections, photography and fine borders rather than raised cards. The only ambient surface shadow belongs to dialogs (`0 30px 100px #251c2340`), over a dark backdrop (`#2c211db0`) with 5px blur. Selected room options use a precise 1px rust ring (`0 0 0 1px var(--rust)`), not a lift.
+Coloured chapters and photographic crops provide most depth. The white reservation desk has a restrained structural shadow; dialogs use stronger elevation and a dark blurred backdrop. Room catalogue bodies stay open against the clay chapter rather than becoming separate raised cards.
 
-**The Quiet Surface Rule.** Keep room catalogue rows unboxed and stationary; reserve elevation for modal separation and selection feedback.
+- Reservation desk: `0 12px 40px #48283213`; mobile: `0 8px 26px #48283213`.
+- Dialog: `0 30px 100px #251c2340`; backdrop `#2c211db0` with `blur(5px)`.
+- Selected booking room: `0 0 0 1px var(--rust)` alongside the rust border.
+- Desktop hero text shading uses a horizontal dark-to-transparent gradient; mobile uses a plum-to-transparent vertical gradient, keeping the heading above the lower film crop.
+
+**The Purposeful Depth Rule.** Use elevation to clarify the reservation desk, modal layer and selected room; retain open catalogue text and stationary cards.
 
 ## Shapes
 
-Photography and catalogue rows are rectangular. Buttons and form fields use the small corners in frontmatter; dialogs use a softer corner that tightens on mobile. Room-option thumbnails use 4px corners. Film controls use 2px corners; close, gallery and progress controls are circular. Borders are generally 1px; active room filters use a 2px underline. These functional circles do not reinstate ornamental stamps or arches.
+Rounded rectangles repeat across controls and media: buttons 8px, photographs and desktop reservation desk 12px, desktop hero 18px and dialogs 14px. Form fields use 5px corners; booking room choices use 9px. At ≤600px the hero becomes 12px and desk/dialog 10px. Gallery controls, close buttons and booking progress markers are circular. Keep the original paw brand icon and native paw cursor; the current direction does not call for decorative sticker badges.
 
 ## Components
 
-**Buttons and links.** Primary buttons use a rust border and fill, paper text, a 24px internal gap and 18px icons; hover darkens the fill and border with a 0.18s background transition. Light contact buttons use cream with rust text and a local warm hover (`#ebd9c4`). Text actions have an underline, no fill, 5px vertical padding and a 22px gap; hover turns rust. The contact address links retain cream on hover. Compact variants use smaller typography/padding as implemented.
+**Buttons and text actions.** Primary buttons use rust with white text, 16px 22px padding, minimum height 48px and a 22px icon gap. Hover changes to deep rust over .18s. Light buttons invert to warm white/rust and hover to peach/plum. Text actions use a fine underline, 7px vertical padding and minimum height 36px; room-card and booking back actions remove the underline. Smaller variants are defined per context rather than through a new universal scale. Focus is 3px with 5px offset. There is no separate authored pressed transform.
 
-**Keyboard focus.** Buttons, links, inputs, selects, textareas and summaries use a 2px solid rust outline with 5px offset. Contact buttons/links override the outline to cream. The skip link appears at the top on focus. Preserve these rings in component snippets and future edits.
+**Navigation and footer.** The sticky warm-white header has a fine bottom rule, paw lockup, centred links and a booking action. The mobile menu button exposes its expanded state and switches its accessible label. Footer content groups the lockup, hotel line and social/contact links above a divider, licence, privacy link and preview label; mobile stacks the links and wraps the bottom row.
 
-**Fields and options.** Quick-book controls are transparent with a bottom rule (`#b8aa98`), square corners and 8px vertical padding. Dialog fields use paper, a line border, the field radius/padding, 12px text and a minimum height of 43px. Radios and checkboxes are 16px with rust accent. Selected room options gain a rust border and ring; over-capacity options are disabled, 45% opaque and use the not-allowed cursor. Form errors appear in a `role="alert"` message. Inputs retain native browser date/select behavior.
+**Room catalogue and filters.** Three columns pair portrait interiors with title, daily starting rate, guest capacity, features, photo/details actions and room-specific booking. Rounded filter buttons sit inside a clay tray; the active filter is white with rust text and `aria-pressed=true`. Room image hover darkens the image to brightness(.94) over .2s, with no lift. Gallery controls expose multiple real photographs; the active number uses rust/white. Room facts and provenance remain in the product/source records.
 
-**Navigation and filters.** Desktop navigation is a centered text row. At 850px and below, the menu button toggles a cream dropdown and updates its expanded state. Room filters are plain text buttons, with rust text and an underline for the active choice and `aria-pressed` state; they are not chips. FAQ uses native details/summary with a plus that rotates 45 degrees when open.
+**Reservation desk.** Date and guest controls sit directly beneath the film in a white overlapping surface. Desktop fields use thin vertical dividers; mobile uses two columns, lower input rules and a visible action. The earlier “Going somewhere?” eyebrow is absent. The desk opens the working preview with selected dates and guest count.
 
-**Room catalogue and dialogs.** Real images open a two-image room dialog. A cream action label sits at the bottom right of each catalogue photo; descriptions, capacities and starting rates sit openly beside it. Booking retains distinct dates/room, guest-details, review/payment and completion screens. All payment options and totals remain visibly marked as previews.
+**Inputs and room choices.** Dialog fields use white fill, line borders, 11px padding and a 43px minimum height. Selected room choices receive the rust border and ring. Capacity-ineligible choices are disabled and faded to .45; the UI explicitly distinguishes guest capacity from live availability. Payment choices are preview radios only. Validation errors appear in a `role=alert` region; no live card-entry or banking form exists.
 
-**Atmosphere film.** The 7.5-second silent, looping film is AI-created and labelled below the player. It uses muted inline playback, a poster, and Play/Pause/Retry control. The 600px media query chooses the 960×540 mobile source; larger viewports use 1920×1080. The source is assigned only when playback is requested and the film is visible. Playback pauses offscreen, when the page is hidden or while a dialog is open. Reduced-motion/data-saving preferences start with the poster; explicit Play remains available. Reduced motion also disables CSS transitions/animations and smooth scrolling. There are no scroll reveals or hover lifts. Preference behavior is documented from source; its runtime emulation remains unverified in the handoff.
+**Booking dialog.** Dates/room, guest details, review/payment and completion are distinct states. The current step has a rust marker and `aria-current=step`; completed markers contain an inline SVG check. Back uses the shared SVG arrow rotated 180 degrees. Continue, Back and Edit details reset dialog scroll and focus the new heading with `preventScroll`; date/room re-renders restore the changed field's focus. Preview notices, estimates, consent and completion wording consistently state that nothing is booked or charged.
+
+**FAQ.** Native details/summary rows use dividing lines and a plus icon that rotates 45 degrees when open. Keep keyboard focus visible and the native disclosure semantics.
+
+**Desktop paw cursor.** Only `(hover: hover) and (pointer: fine)` receives `public/cursors/paw.svg`, hotspot 8 5, with `auto` fallback. Links, buttons, summaries, selects and radio/checkbox labels use `paw-active.svg`, the same hotspot and `pointer` fallback. Editable non-radio/non-checkbox inputs and textareas retain a text cursor; disabled buttons, inputs and selects use `not-allowed`. Coarse/touch devices receive the normal platform behaviour. This is CSS, with no cursor follower or trailing animation.
+
+**Atmosphere film and motion.** The existing 7.5-second AI-created silent loop remains visibly disclosed. A poster and Play/Pause/Retry control are present. At first source assignment, ≤600px selects the 960×540 encode; larger screens select 1920×1080. The source is assigned only when playback is requested and the film is visible. Playback pauses offscreen, in a hidden document or while a dialog is open. Reduced-motion/data-saving preferences start with the poster; explicit Play is available. Preference changes toward reduced motion or data saving stop requested playback. Reduced motion also disables CSS transitions/animations and switches smooth scrolling to auto. Film source, mobile encode and offscreen pause have prior handoff evidence; reduced-motion/data-saving runtime emulation remains unverified, with behaviour reviewed from source only. See `docs/REDESIGN-HANDOFF.md` and `docs/MEDIA.md` for verification limits and provenance.
 
 ## Do's and Don'ts
 
-- **Do** preserve cream, terracotta, Newsreader and DM Sans as the confirmed identity.
-- **Do** keep room photography, factual capacity/rates and open catalogue layouts together.
-- **Do** retain visible keyboard focus, motion controls and explicit preview notices.
-- **Do** distinguish the AI atmosphere film from real room photographs.
-- **Don't** add decorative paw stamps, stars, arches, scribbled arrows or floating callouts.
-- **Don't** add scroll reveals, hover lifts or framed room cards to this refinement.
-- **Don't** imply that the booking design reserves inventory or takes payment.
+### Do:
+
+- **Do** use Gabarito, Albert Sans, warm white, plum, rust and clay as the current implemented identity.
+- **Do** keep actual room photographs, capacity and rates prominent and close together.
+- **Do** preserve visible focus, native controls, film controls and fine-pointer-only paw cursors.
+- **Do** keep AI atmosphere footage distinct from actual room photography.
+- **Do** retain explicit preview notices throughout booking and payment states.
+
+### Don't:
+
+- **Don't** restore the superseded sparse Newsreader/DM Sans aesthetic.
+- **Don't** add decorative sticker badges, cursor followers or trailing animations.
+- **Don't** turn the open catalogue into floating cards or add hover lifts and scroll reveals.
+- **Don't** invent reviews, live availability, reservation success or payment collection.
+- **Don't** describe source-reviewed preference behaviour as runtime verified.

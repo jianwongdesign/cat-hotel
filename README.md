@@ -1,6 +1,6 @@
 # Little Pawcious — cat hotel website
 
-Boutique-hotel design preview and interactive booking prototype, based on the existing Little Pawcious brand and real room photography. Refined 28 October 2026 using Impeccable, with a cosy Higgsfield lounge film.
+Cat-hotel website and interactive booking prototype, based on the Little Pawcious brand and real room photography. Fully redesigned 28 October 2026 after feedback that the previous page felt too plain and empty: immersive lounge film, prominent reservation form, fuller room galleries and a desktop paw cursor.
 
 [View the shared design preview](https://jianwongdesign.github.io/cat-hotel/) · [GitHub repository](https://github.com/jianwongdesign/cat-hotel)
 
@@ -23,7 +23,8 @@ Stop the dev server before running preview; both use port 4187. Production outpu
 - A 7.5-second looping cat film, responsive encodes, pause control and reduced-motion poster fallback. Generation cost: 19.5 of 35 authorised credits; [media provenance](docs/MEDIA.md).
 - Responsive homepage, room filtering, two-image room galleries, care and boarding sections, FAQs and contact links.
 - Booking preview: dates, 1–6 guests, room capacity, guest information, price estimate, payment-method selection and preview completion.
-- Native accessible modal dialogs, keyboard navigation, reduced-motion support, noindex preview.
+- Native modal dialogs, keyboard navigation, reduced-motion support, noindex preview.
+- Paw cursor for desktop mouse users, distinct action state and normal text-entry cursor. Touch devices keep native behavior. Responsive navigation, room galleries and booking forms.
 - In-memory sample guest details only. No local storage, database, tracking, booking requests or payment requests.
 
 ## Production boundary
@@ -32,4 +33,4 @@ Stop the dev server before running preview; both use port 4187. Production outpu
 
 Before production: confirm real room-unit inventory, occupancy/size rules, billable-day calculation, peak/blackout pricing, deposits, cancellations, arrival times and add-on charges with the hotel. Connect a server-backed availability/hold/booking service and hosted checkout. Verify payment webhooks, idempotency, expiring unpaid holds, concurrency, receipts and booking confirmations before enabling real bookings. Choose the final architecture after confirming whether to integrate the current WordPress booking system or replace it.
 
-Source and image provenance, pricing assumptions and remaining gates: [docs/DESIGN-HANDOFF.md](docs/DESIGN-HANDOFF.md).
+Current redesign and verification: [docs/REDESIGN-HANDOFF.md](docs/REDESIGN-HANDOFF.md). Original source mapping, pricing assumptions and production gates: [docs/DESIGN-HANDOFF.md](docs/DESIGN-HANDOFF.md).
