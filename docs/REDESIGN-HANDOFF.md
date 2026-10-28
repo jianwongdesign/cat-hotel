@@ -52,3 +52,9 @@ The user approved the current design and asked for softer corners plus a fix for
 - Screenshots: `.cache/qa/cosy-desktop.jpg`, `cosy-mobile.jpg`, `cosy-narrow.jpg`, `cosy-mobile-room.jpg` (local, ignored).
 
 Polish published as `47403b114edb66225b7193b633df592e3b4189da`; Pages build/test/deploy succeeded: https://github.com/jianwongdesign/cat-hotel/actions/runs/40646382050. Public verification confirmed 28px desktop hero, 14px buttons, ivory surfaces, cursor hotspot 16,21 and first-click continuation after a date change. At 390px the published mobile hero uses 20px corners with no horizontal overflow; browser console clear. Screenshots: `.cache/qa/published-cosy-desktop.jpg` and `published-cosy-mobile.jpg`. Browser viewport restored.
+
+## Original paw artwork — 28 October 2026
+
+User requested the paw from https://littlepawcious.sg/. Its current header displays the grey paw with pink pads; the source page does not currently apply it as a CSS cursor. Replaced the authored cursor SVGs with that exact transparent artwork, proportionally exported at 32px. The native cursor hotspot is 19,7 at the top of the paw, consistent between background and actions. Header/footer marks now reuse the original 150px asset. Provenance is in MEDIA.md. Existing booking click fix and touch-only behaviour preserved.
+
+Local verification: original header/footer assets loaded at 150px; default/action cursor both point to the new PNG and use the same hotspot; Book a stay and Close booking work; 390px mobile header fits without horizontal overflow. Static build and diff checks passed. No additional credits spent.

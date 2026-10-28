@@ -29,4 +29,12 @@ The generated cat enters around 2.5 seconds and exits around 8 seconds. To short
 
 `src/video.js` loads the appropriate file only when playback is requested and the film is visible. Reduced-motion and data-saving preferences start with the static poster. Explicit Play remains available. Playback pauses when offscreen, hidden or a dialog is open; the user's Pause choice persists for the page session. A failed video retains the poster and exposes Retry. No external video player or tracking embed.
 
-The full redesign reuses the same film and poster without new generation. Fonts are now self-hosted Gabarito and Albert Sans, licensed under the bundled SIL Open Font License files in `public/fonts/`. The two paw cursor SVGs are authored interface icons; they use no third-party artwork.
+The full redesign reuses the same film and poster without new generation. Fonts are now self-hosted Gabarito and Albert Sans, licensed under the bundled SIL Open Font License files in `public/fonts/`. The original authored paw-print cursor SVGs were replaced at the user’s request with the existing hotel’s grey-and-pink paw artwork.
+
+## Original hotel paw
+
+Source as rendered in the original site header on 28 October 2026: https://i0.wp.com/littlepawcious.sg/wp-content/uploads/2023/12/icon-logo-square-format-512-%C3%97-512-px.png?resize=150%2C150&ssl=1
+
+- `public/cursors/original-paw.png`: unchanged 150×150 transparent PNG, used for header/footer marks.
+- `public/cursors/paw.png`: proportional 32×32 export of the same artwork, used as the native desktop cursor. Hotspot 19,7 meets the upper paw tip. No recolouring or AI generation.
+- Original source page currently uses this as its header artwork, rather than a CSS cursor; the new preview adapts that same artwork for the requested cursor.

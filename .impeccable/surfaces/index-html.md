@@ -21,7 +21,7 @@ FIRST VIEWPORT: compact warm-white navigation, immersive lounge film with large 
 
 FORM: contemporary interior showroom, candidate 4 of .impeccable/redesign-candidates.md; seed 8f5fd30d. Material translated toward the user-pinned warm boutique identity. The user chose direct working-page implementation; proceed with this assigned form rather than delaying on further visual option rounds.
 
-MOTION: existing cat film remains the authored motion; matching empty-room loop, pause and poster preferences. Desktop paw cursor is a native CSS cursor, not a delayed follower, and becomes an accent paw over actions. Mobile uses touch controls without a cursor.
+MOTION: existing cat film remains the authored motion; matching empty-room loop, pause and poster preferences. Desktop paw cursor is a native CSS cursor, not a delayed follower, and retains the same artwork and hotspot over actions. Mobile uses touch controls without a cursor.
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
 
@@ -35,3 +35,5 @@ Loteria: declined on both; keep whole-room photo readability and direct room lab
 Swiss grid: competitive on clarity but weaker on warmth; keep aligned room comparisons and exact spacing, avoid its cold poster styling.
 
 POLISH — 28 October 2026: user approved this layout and requested only a rounder, cosier finish. Ivory inset surfaces, softer control/media corners, and a centre-pad cursor hotspot preserve the composition. Booking changes update controls in place to keep the next click reliable.
+
+BRAND CORRECTION: use the original grey-and-pink paw artwork from littlepawcious.sg for the desktop cursor and header/footer mark; replace the authored paw-print cursors.
