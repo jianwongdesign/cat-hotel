@@ -53,3 +53,15 @@ All following paths are relative to https://littlepawcious.sg/wp-content/uploads
 7. Approve design/content, test all actual operational journeys and then release to the production domain.
 
 The client's existing website has not been modified.
+
+## Release and verification
+
+- Public preview: https://jianwongdesign.github.io/cat-hotel/
+- Repository: https://github.com/jianwongdesign/cat-hotel
+- First design commit: `f436ac12ce88faba1106fbc2be004df93797f6fe`.
+- Successful build and deployment: https://github.com/jianwongdesign/cat-hotel/actions/runs/40639001187 (rerun after enabling Pages).
+- Public HTTP 200 verified; public homepage and booking dialog checked in Chrome, including image load and empty-date validation.
+- Browser layouts inspected at 320, 390, 768, 1440 and the default large desktop viewport. No document horizontal overflow at the explicitly measured 320, 390, 768 or 1440 widths.
+- Room filtering, second gallery photo, mobile navigation, guest-detail validation, five-cat capacity selection, S$480 three-day Felidae estimate and PayNow preview completion checked in-browser. No external booking or payment was submitted.
+- Four Node test groups pass: date boundaries, invalid inputs, base/extra-cat pricing and capacity rejection.
+- Desktop evidence saved locally at `.cache/qa/desktop-preview.jpg` (excluded from Git).

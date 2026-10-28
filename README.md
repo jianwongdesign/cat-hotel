@@ -2,6 +2,8 @@
 
 First-cut design and interactive booking prototype, based on the existing Little Pawcious brand and real hotel photography. Created 28 October 2026.
 
+[View the shared design preview](https://jianwongdesign.github.io/cat-hotel/) · [GitHub repository](https://github.com/jianwongdesign/cat-hotel)
+
 ## Run locally
 
 Node.js 22 or later; no dependency installation required.
