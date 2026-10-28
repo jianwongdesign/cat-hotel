@@ -80,3 +80,9 @@ Motion uses 160ms control colour feedback, 160–240ms interruptible menu/dialog
 Also repaired modal handoff scroll locking: closing the room gallery no longer unlocks the body if the booking dialog is already open. Mobile menu closes with Escape and restores focus.
 
 QA: desktop 1440px forward/back status, guest form, review (two completed), and completion (three completed, no current step); 320/390/768px layouts without dialog horizontal overflow. Mobile menu open/close/Escape, native dialog Escape, room-to-booking handoff and scroll lock verified. Mobile film resumes after closing, readyState 4, 7.5-second source, mobile encode selected. Browser console clear. Four booking tests and build pass. Single detector scan: approved palette and established sizing advisories; new motion colours documented. Screenshots in `.cache/qa/progress-review-desktop.jpg` and `progress-mobile.jpg`.
+
+## Mobile hero framing — 28 October 2026
+
+User reported excessive maroon space in the mobile hero. At ≤600px the film now fills the hero from top to bottom, replacing its former 180px inset and solid plum upper block. A translucent warm-charcoal shade preserves white-text legibility while showing the hotel behind it. Hero height reduced from 465px to 440px. Existing aligned widths, typography, film controls, booking desk, desktop layout and media files preserved.
+
+Local checks: 320px and 390px layouts fit without horizontal overflow; hero and booking edges match; Pause/Play and Find a room work. Build and diff checks passed. No additional generation/credits.
