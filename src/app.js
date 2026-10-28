@@ -16,7 +16,7 @@ document.querySelector('#app').innerHTML=`
 <header class="header"><div class="container nav"><a href="#" class="brand" aria-label="Little Pawcious home">${brand}</a><nav id="navigation" aria-label="Main navigation"><a href="#rooms">Our rooms</a><a href="#care">The Pawcious life</a><a href="#before">Your first stay</a><a href="#contact">Find us</a></nav><button class="button nav-book" data-book>Book a stay ${icon('arrow')}</button><button class="menu-button" aria-label="Open navigation" aria-expanded="false" aria-controls="navigation">${icon('menu')}</button></div></header>
 <main id="main">
 <section class="hero" aria-labelledby="hero-title">
- <div class="hero-stage"><div class="film-frame"><video id="hotel-video" muted loop playsinline preload="none" poster="./public/images/hotel-film-poster.jpg" aria-label="A cat exploring a cosy lounge, an AI-created atmosphere film inspired by Little Pawcious"></video></div><div class="hero-shade"></div>
+ <div class="hero-stage container"><div class="film-frame"><video id="hotel-video" muted loop playsinline preload="none" poster="./public/images/hotel-film-poster.jpg" aria-label="A cat exploring a cosy lounge, an AI-created atmosphere film inspired by Little Pawcious"></video></div><div class="hero-shade"></div>
  <div class="hero-content"><h1 id="hero-title">A happy place<br>to be a cat.</h1><p>Cosy rooms. Familiar routines.<br>A holiday of their own, here in Singapore.</p><a class="hero-link" href="#rooms">Meet their home away from home ${icon('arrow')}</a></div>
  <div class="film-credit">AI-created atmosphere film</div><button id="film-toggle" class="film-toggle" aria-label="Play hotel film">${icon('play')}<span>Play film</span></button>
  </div>

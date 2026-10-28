@@ -58,3 +58,9 @@ Polish published as `47403b114edb66225b7193b633df592e3b4189da`; Pages build/test
 User requested the paw from https://littlepawcious.sg/. Its current header displays the grey paw with pink pads; the source page does not currently apply it as a CSS cursor. Replaced the authored cursor SVGs with that exact transparent artwork, proportionally exported at 32px. The native cursor hotspot is 19,7 at the top of the paw, consistent between background and actions. Header/footer marks now reuse the original 150px asset. Provenance is in MEDIA.md. Existing booking click fix and touch-only behaviour preserved.
 
 Local verification: original header/footer assets loaded at 150px; default/action cursor both point to the new PNG and use the same hotspot; Book a stay and Close booking work; 390px mobile header fits without horizontal overflow. Static build and diff checks passed. No additional credits spent.
+
+## Matching home hero width — 28 October 2026
+
+Hero now shares `.container` with the header, booking desk and page content, replacing its independent 1680px maximum and outer gutters. Removed the mobile booking desk's wider override so its edges also match. Hero height, film, corners and typography preserved; versioned CSS/module URLs refreshed.
+
+Verified equal left/right edges in Chrome: 320px (20–300), 390px (20–370), 768px (32–736), 1440px (90–1350), 1920px (240–1680). No horizontal overflow; narrow headline and booking fields fit. Static build and diff checks pass. Single design scan has only existing type/radius advisories and approved cream-palette warning; no new design changes made from these.

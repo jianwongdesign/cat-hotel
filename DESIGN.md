@@ -155,10 +155,10 @@ The desktop container is `min(1260px, calc(100% - 96px))`. Sections use 76px ver
 | ≥1700px | Container `min(1440px, calc(100% - 160px))`; hero 720px tall; room photos 430px; care photo minimum 730px. |
 | ≤1150px | Container `calc(100% - 64px)`; hero 550px; room photos 330px; room grid gap 20px; tighter navigation and desk. |
 | ≤850px | Navigation collapses to a menu under the 76px header; hero 520px; desk caption hidden; room grid remains three columns with 285px photos and stacked card actions. Sections use 60px padding. Booking columns become content plus a 225px summary. |
-| ≤600px | Container `calc(100% - 40px)`; header 70px; hero 465px; film begins 180px down within the hero. Desk uses two columns and a `calc(100% - 24px)` width. Catalogue, care, arrival, FAQ and contact become one column; room photos are 370px. Sections use 45px padding. Booking summary follows the form; dialog width `calc(100% - 20px)`, maximum height 94dvh, sticky bottom form actions. |
+| ≤600px | Container `calc(100% - 40px)`; header 70px; hero 465px; film begins 180px down within the hero. Desk uses two columns and shares the standard `calc(100% - 40px)` container width. Catalogue, care, arrival, FAQ and contact become one column; room photos are 370px. Sections use 45px padding. Booking summary follows the form; dialog width `calc(100% - 20px)`, maximum height 94dvh, sticky bottom form actions. |
 | ≤359px | Brand icon hidden; hero heading 42px; room photos 325px; smaller gaps and action labels keep the narrow layout usable. |
 
-Desktop hero outer padding is 20px 24px 0, stage maximum width 1680px, height `clamp(520px, 42vw, 680px)`. The reservation desk overlaps by 48px, reducing to 42px at ≤850px and 34px at ≤600px. Desktop room-detail dialogs use `.9fr 1.1fr`; booking dialogs use content plus a 290px summary. Dialogs default to a maximum height of 90dvh and width `min(1080px, calc(100% - 40px))`.
+The hero stage shares the standard `.container` width with the header, booking desk and content at every breakpoint. Its wrapper has top padding only (20px desktop, 16px tablet, 10px mobile), height `clamp(520px, 42vw, 680px)`. The reservation desk overlaps by 48px, reducing to 42px at ≤850px and 34px at ≤600px. Desktop room-detail dialogs use `.9fr 1.1fr`; booking dialogs use content plus a 290px summary. Dialogs default to a maximum height of 90dvh and width `min(1080px, calc(100% - 40px))`.
 
 ## Elevation & Depth
 

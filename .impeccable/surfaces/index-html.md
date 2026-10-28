@@ -37,3 +37,5 @@ Swiss grid: competitive on clarity but weaker on warmth; keep aligned room compa
 POLISH — 28 October 2026: user approved this layout and requested only a rounder, cosier finish. Ivory inset surfaces, softer control/media corners, and a centre-pad cursor hotspot preserve the composition. Booking changes update controls in place to keep the next click reliable.
 
 BRAND CORRECTION: use the original grey-and-pink paw artwork from littlepawcious.sg for the desktop cursor and header/footer mark; replace the authored paw-print cursors.
+
+HERO ALIGNMENT: hero stage and reservation desk use the same responsive container as the header and page content, including mobile. No independent wider hero gutter.
