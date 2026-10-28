@@ -1,6 +1,6 @@
 # Little Pawcious — cat hotel website
 
-First-cut design and interactive booking prototype, based on the existing Little Pawcious brand and real hotel photography. Created 28 October 2026.
+Boutique-hotel design preview and interactive booking prototype, based on the existing Little Pawcious brand and real room photography. Refined 28 October 2026 using Impeccable, with a cosy Higgsfield lounge film.
 
 [View the shared design preview](https://jianwongdesign.github.io/cat-hotel/) · [GitHub repository](https://github.com/jianwongdesign/cat-hotel)
 
@@ -20,6 +20,7 @@ Stop the dev server before running preview; both use port 4187. Production outpu
 
 ## Included
 
+- A 7.5-second looping cat film, responsive encodes, pause control and reduced-motion poster fallback. Generation cost: 19.5 of 35 authorised credits; [media provenance](docs/MEDIA.md).
 - Responsive homepage, room filtering, two-image room galleries, care and boarding sections, FAQs and contact links.
 - Booking preview: dates, 1–6 guests, room capacity, guest information, price estimate, payment-method selection and preview completion.
 - Native accessible modal dialogs, keyboard navigation, reduced-motion support, noindex preview.

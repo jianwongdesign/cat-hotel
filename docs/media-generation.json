@@ -1,0 +1,40 @@
+{
+  "frame": {
+    "model": "nano_banana_pro",
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "count": 1,
+    "medias": [
+      {
+        "role": "image",
+        "value": "https://littlepawcious.sg/wp-content/uploads/2024/05/background_living.webp"
+      }
+    ],
+    "prompt": "Create a photorealistic landscape 16:9 establishing frame of the SAME cosy Singapore conservation-shophouse cat hotel lounge in the reference photograph. Faithfully retain the tall black-framed heritage shutter windows on the left, warm ivory plaster walls, low curved cream boucle sofa on the right, sculptural cream round coffee table, black curved floor lamp, wall of small cat photographs, and pale timber floor. Recompose the view as a straight, level, stationary 35mm camera at low sofa height, wide enough to show an unobstructed strip of wood floor across the full lower third where a cat could walk left to right. Keep room believable and intimate, not a luxury mansion or imaginary resort. Warm soft late-afternoon window light, gentle natural shadows, softly glowing lamp, restrained film colour, slightly tactile photographic detail, quiet and welcoming. EMPTY ROOM: no cats, no people. Remove tablet and packaging clutter. No text, watermark, graphics, HDR, exaggerated bloom, orange colour cast or fisheye. This still will be both the first and final frame of a looping cat hotel atmosphere film."
+  },
+  "video": {
+    "model": "kling3_0",
+    "duration": 10,
+    "mode": "pro",
+    "aspect_ratio": "16:9",
+    "sound": "off",
+    "count": 1,
+    "medias": [
+      {
+        "role": "start_image",
+        "value": "f7566a18-9f92-45e1-bd70-5ba9e7d88a2f"
+      },
+      {
+        "role": "end_image",
+        "value": "f7566a18-9f92-45e1-bd70-5ba9e7d88a2f"
+      }
+    ],
+    "prompt": "A quiet, photorealistic ten-second continuous observation inside this cosy cat hotel lounge. LOCKED-OFF CAMERA: the exact same fixed tripod framing, perspective, furniture, lighting and empty-room composition as the supplied first and final frames throughout. No pan, zoom, cut or camera drift. At 0–0.4 seconds the room is empty. One healthy fluffy grey-and-white adult cat enters naturally from beyond the LEFT edge onto the open wooden floor in the lower foreground. The cat is clearly visible, roughly one fifth of the frame height, with white paws, soft grey back and a relaxed upright fluffy tail. It walks gently and naturally LEFT TO RIGHT across the lounge in front of the coffee table and cream sofa, with anatomically accurate four-legged gait and paws contacting the floor. Near the middle it pauses briefly, glances towards the warm window light, then keeps walking at an easy unhurried pace and exits completely beyond the RIGHT edge by 9.3 seconds. The last 0.7 seconds show only the same empty room as the beginning, allowing a seamless loop. Calm afternoon atmosphere, warm soft window light, subtle breathing and fur motion, believable contact shadows. Preserve architecture and furniture exactly; never move the sofa or add doors. No people, other animals, collars, text, watermark, graphics, flashes, morphing, dissolving cat, sudden jumps, reversed walking, time-lapse, dramatic action or exaggerated cinematic effects."
+  },
+  "credits": {
+    "cap": 35,
+    "spent": 19.5,
+    "starting": 759.25,
+    "ending": 739.75
+  }
+}

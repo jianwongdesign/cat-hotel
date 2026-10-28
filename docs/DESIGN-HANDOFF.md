@@ -2,9 +2,9 @@
 
 ## Direction
 
-A warmer, more spacious evolution of the existing ivory-and-red theme: cream backgrounds, terracotta accents, dark brown text, Manrope headings, DM Sans body copy and a restrained italic serif accent. A large real cat portrait, room photography and quiet handwritten-style details carry the personality.
+User-confirmed direction: **a cosy, understated boutique hotel**. Warm cream, terracotta and dark brown stay; Newsreader display type and DM Sans body type are now self-hosted. The wide, quiet lounge film is the main visual moment. Room listings use open horizontal layouts and real photographs. Decorative stamps, arches, badges, handwritten flourishes and eyebrow labels have been removed.
 
-No Higgsfield credits used (0 of the authorised maximum 75). All photographs are from the client’s existing public site; they remain the property of their respective owner. No generated room interiors or invented review scores are used. Copy is newly written for this preview. Google Fonts loads externally.
+Higgsfield spend for the film and reference frame: **19.5 of the 35-credit cap**. See `MEDIA.md` and `media-generation.json` for provenance, prompts, costs and loop processing. The generated atmosphere film is labelled as AI-created. Room galleries still use actual hotel photographs. No fabricated review scores or claims of live availability.
 
 ## Verified reference pages
 
@@ -65,3 +65,18 @@ The client's existing website has not been modified.
 - Room filtering, second gallery photo, mobile navigation, guest-detail validation, five-cat capacity selection, S$480 three-day Felidae estimate and PayNow preview completion checked in-browser. No external booking or payment was submitted.
 - Four Node test groups pass: date boundaries, invalid inputs, base/extra-cat pricing and capacity rejection.
 - Desktop evidence saved locally at `.cache/qa/desktop-preview.jpg` (excluded from Git).
+
+
+## Boutique refinement — 28 October 2026
+
+- 7.5-second silent loop with an empty-room crossfade; approximately 922 KB desktop / 245 KB mobile. Play/pause control and poster fallback.
+- Video pauses offscreen, when a dialog opens, and when the document is hidden. Reduced-motion/data-saving preferences default to the poster; explicit playback remains possible.
+- Preserved room/date/guest/payment-preview journey. Capacity change now restores keyboard focus and room selection avoids disabled over-capacity options.
+- Room gallery now leads Panthera with the actual interior rather than the cat close-up.
+- Verified five cats, three days, Felidae S$480 through PayNow preview completion; no real transaction. Mobile navigation, filtering, second room photo, play/pause and offscreen pause checked.
+- Refined layout measured without document overflow at 320, 390, 768 and 1440 px. Screenshot evidence in `.impeccable/review/`.
+- Reduced-motion emulation was blocked by the browser permission check; no workaround attempted. Fallback reviewed in source but its runtime preference check remains unverified. Data-saving preference is likewise source-reviewed only.
+- Impeccable detector: one cream-background warning, accepted because the user explicitly requested the existing warm palette. No repeated detector pass.
+
+- Independent finish review: `ship` for the sole material fix, the contact-section focus outline. Cream outlines verified for both phone and viewing CTA; all five required recaptures accepted. Review at `.impeccable/review/finish-review.md`.
+- Large desktop also measured at 2320 px without overflow. Final browser console had no errors or warnings. Actual film loop/mute state and 7.5-second duration confirmed in browser.
